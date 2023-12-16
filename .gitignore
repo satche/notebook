@@ -1,0 +1,16 @@
+# Notebook
+src/wip
+
+# Vitepress
+.vitepress/cache
+.vitepress/dist
+
+# Obsidian
+.obsidian
+.trash
+
+# NPM
+node_modules/
+
+# OSX
+.DS_Store
