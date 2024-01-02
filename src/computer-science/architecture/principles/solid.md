@@ -108,7 +108,7 @@ class Square < Shape:
 	area(): return side * 2
 ```
 
-See: [Design by contract](../paradigms/design-by-contract.md)
+See: [Design by contract](../paradigms/design%20by%20contract.md)
 
 ### Interface Segregation
 
