@@ -92,8 +92,8 @@ NP stands in fact for *Nondeterministic Polynomial*. It basically means that it 
 
 **Examples**
 - Finding prime number (NP)
-- [Traveling Salesman](problems/traveling-salesman.md), [Knapsack](problems/knapsack.md) (NP-complete)
-- [Halting Problem](https://en.wikipedia.org/wiki/Halting_problem) (NP-hard)
+- [Traveling Salesman](problems/traveling-salesman.md), [Knapsack](problems/knapsack.md), [Graph coloring](problems/graph-coloring.md) (NP-complete)
+- [halting](problems/halting.md) (NP-hard)
 
 ## Resources
 
