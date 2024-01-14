@@ -16,5 +16,6 @@ There is seven well-known complex mathematical problems that are called the [Mil
 - [Riemann hypothesis](https://en.wikipedia.org/wiki/Riemann_hypothesis "Riemann hypothesis")
 - [Yang–Mills existence and mass gap](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap "Yang–Mills existence and mass gap")
 - [Poincaré conjecture](https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture "Poincaré conjecture")
-- None has been solved for now, except for the Poincaré conjecture.
-- The first correct solution of those problems are rewarded 1 million US$ by the [Clay Mathematics Institute](https://en.wikipedia.org/wiki/Clay_Mathematics_Institute).
+
+
+The first correct solution of those problems are rewarded 1 million US$ by the [Clay Mathematics Institute](https://en.wikipedia.org/wiki/Clay_Mathematics_Institute). None has been solved for now, except for the Poincaré conjecture.
