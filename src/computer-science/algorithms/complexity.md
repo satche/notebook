@@ -10,7 +10,7 @@ We define [time complexity](https://wikipedia.org/wiki/time_complexity) as the t
 
 ### Big O
 
-The [Big O](https://wikipedia.org/wiki/big_o_notation) notation shows how a function's performance and get bigger as the size of its input increases.
+The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an algorithm's performance get bigger as its input ($n$) increases. In short: how does the time it takes to do the operation growth as we add more elements.
 
 | Notation | Name | Example |
 | ---- | ---- | ---- |
@@ -19,11 +19,14 @@ The [Big O](https://wikipedia.org/wiki/big_o_notation) notation shows how a func
 | $O(n)$ | [linear](https://wikipedia.org/wiki/linear_time "linear time") | Find item in an unsorted list/array |
 | $O(n\log n)$ | [linearithmic](https://wikipedia.org/wiki/linearithmic_time "linearithmic time") | (to complete) |
 | $O(n^2)$ | [quadratic](https://wikipedia.org/wiki/quadratic_time "quadratic time") | (to complete) |
+| $O(n^3)$ | cubic | (to complete) |
 | $O(n^c)$ | [polynomial](https://wikipedia.org/wiki/polynomial_time "polynomial time") | (to complete) |
 | $O(2^n)$ | [exponential](https://en.wikipedia.org/wiki/Exponential_time) | (to complete) |
 | $O(n!)$ | [factorial](https://wikipedia.org/wiki/factorial "factorial") | (to complete) |
 
 ![A graphical plot of time complexity comparison](assets/complexity-comparison-plot.png)
+
+Keep in mind notation can have more than one type of input. Two different lists could involve a $O(n+m)$ type of complexity, or $O(n\times m)$ if they depend on each other.
 
 **Example**
 Let say there is 100 persons, you give a coin to one of them, and you have to find it. They can only answer by yes or no.
@@ -35,9 +38,29 @@ Let say there is 100 persons, you give a coin to one of them, and you have to fi
 | Everybody know where is the coin | You divide the group in half and ask in which sub-group the coin is. You repeat the processus until you find it. | $O(\log n)$ |
 | Only one person know on which person the coin is hidden | You take the 1st person and ask for every person if they have the coin. You repeat the processus for every other person. | $O(n^2)$ |
 
-### Little Omega
+### Big Omega / Theta 
 
-Algorithms usually have best/worst case scenario, depending of which input number is given (e.g., if we randomly find the result on the first try).
+As Big O notation define the worst-case scenario for an algorithm, Big Omega and Big Theta define respectively the best and mean case.
+
+**Example**
+Back to previous example: there is 100 persons, one of them has coin. You ask to each of them if they have it.
+
+- **Best case**: you're lucky and find the person on the first time. It took you $\Omega(1)$ time.
+- **Worst case**: the last person you asked is the one with the coin. It took $O(n/2)$ time.
+- **Mean case**: on average, you need to ask ~50 persons to find the coin, so $\Theta(n)$ time.
+
+### Simplifications
+
+We usually simplify the complexity notation, because it's the growth rate over time that is really interesting.
+
+In the previous example, finding a coin among 100 persons would need to check ~50 persons on average, so $\Theta(n/2)$. What really matters is that the more persons there is, the more time we'll take to find the coin: this growth in *linear*. So, we drop constants numbers as it's not vey relevant. The average time complexity is $\Theta(n)$.
+
+**Some examples**
+
+| Example | Simplification | Explanations |
+| ---- | ---- | ---- |
+| $O(n+n²)$ | $O(n²)$ | $n^2$ will have more impact over $n$, so we simplify to a quadratic complexity. |
+| $O(n \times n^2)$ | $O(n^3)$ | As it's a multiplication, we simplify mathematically the term. The growth is the cubic. |
 
 ## Complexity classes
 
@@ -45,8 +68,8 @@ Based on their time complexity, algorithms can be categorised in different [comp
 
 ### P
 
-[P](https://en.wikipedia.org/wiki/P_(complexity)) is a *polynomial-time* solvable problem
-- It takes $O(n^c)$ or less to *find* (or *verify*) a solution
+[P](https://en.wikipedia.org/wiki/P_(complexity)) is a *polynomial time* solvable problem.
+It takes $O(n^c)$ or less to *find* (or *verify*) a solution
 
 **Examples**
 - Sorting algorithms: [quicksort](sort/quicksort.md), bubble sort, merge sort, etc.
@@ -54,14 +77,23 @@ Based on their time complexity, algorithms can be categorised in different [comp
 
 ### NP
 
-[NP](https://en.wikipedia.org/wiki/NP_(complexity) "NP (complexity)") is a *non-polynomial-time* solvable problem
-- It takes more than $O(n^c)$ to *find* a solution
-- But the solution is *verifiable* in polynomial time
+[NP](https://en.wikipedia.org/wiki/NP_(complexity) "NP (complexity)") is a *non-polynomial time* solvable problem. 
+It takes more than $O(n^c)$ to *find* a yes/no solution (e.g. is the puzzle complete), but it's *verifiable* in polynomial time.
+
+For example, you can easily check if a sudoku puzzle is solved by check the row and columns containing the 9 numbers, but it takes more time to complete it.
+
+::: info Side note
+NP stands in fact for *Nondeterministic Polynomial*. It basically means that it *should* be solvable in polynomial time with theoretical nondeterministic machines.
+:::
+
+**Sub-classes**
+- [NP-complete](https://en.wikipedia.org/wiki/NP-complete): if we find a polynomial time algorithm to solve these problems, we could solve any other NP problems.
+- [NP-hard](https://en.wikipedia.org/wiki/NP-hardness): it's at least as hard as NP-complete problems, but it's also non-polynomial to *verify* the solution.
 
 **Examples**
-- Sudoku puzzles. You can easily check if row and columns contains numbers 1-9, but it takes more time to complete it.
-- [Traveling Salesman](problems/traveling-salesman.md)
-- [Knapsack](problems/knapsack.md)
+- Finding prime number (NP)
+- [Traveling Salesman](problems/traveling-salesman.md), [Knapsack](problems/knapsack.md) (NP-complete)
+- [Halting Problem](https://en.wikipedia.org/wiki/Halting_problem) (NP-hard)
 
 ## Resources
 
