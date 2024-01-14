@@ -6,7 +6,9 @@ aliases: [Big O notation, Time complexity, P complexity, NP complexity]
 
 We define [time complexity](https://wikipedia.org/wiki/time_complexity) as the time a computer take to run an algorithm.
 
-## Big O notation
+## Notation
+
+### Big O
 
 The [Big O](https://wikipedia.org/wiki/big_o_notation) notation shows how a function's performance and get bigger as the size of its input increases.
 
@@ -22,6 +24,18 @@ The [Big O](https://wikipedia.org/wiki/big_o_notation) notation shows how a func
 | $O(n!)$ | [factorial](https://wikipedia.org/wiki/factorial "factorial") | (to complete) |
 
 ![A graphical plot of time complexity comparison](assets/complexity-comparison-plot.png)
+
+**Example**
+Let say there is 100 persons, you give a coin to one of them, and you have to find it. They can only answer by yes or no.
+
+| Scenario | Algorithm | Complexity |
+| ---- | ---- | ---- |
+| Give the coin to someone | You throw the coin in the group without looking | $O(1)$ |
+| The person who has the coin is the only one to know | You ask each person individually "do you have the coin?". | $O(n)$ |
+| Everybody know where is the coin | You divide the group in half and ask in which sub-group the coin is. You repeat the processus until you find it. | $O(\log n)$ |
+| Only one person know on which person the coin is hidden | You take the 1st person and ask for every person if they have the coin. You repeat the processus for every other person. | $O(n^2)$ |
+
+### Little Omega
 
 Algorithms usually have best/worst case scenario, depending of which input number is given (e.g., if we randomly find the result on the first try).
 
@@ -48,3 +62,8 @@ Based on their time complexity, algorithms can be categorised in different [comp
 - Sudoku puzzles. You can easily check if row and columns contains numbers 1-9, but it takes more time to complete it.
 - [Traveling Salesman](problems/traveling-salesman.md)
 - [Knapsack](problems/knapsack.md)
+
+## Resources
+
+- [bigocheatsheet.io](https://bigocheatsheet.io) – Cheatsheet containing data structures and algorithms
+- [bigocheatsheet.com](https://www.bigocheatsheet.com/) – Overview with chart and tables
