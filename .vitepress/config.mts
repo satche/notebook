@@ -1,5 +1,11 @@
 import { generateSidebar } from "vitepress-sidebar";
 
+// TODO:
+// Find a way so filename with same name as folder are treated as index file
+// Example: /foo/bar/bar.md = /foo/bar/index.md
+
+// Caption to image: https://stackblitz.com/edit/vite-1p5ozg?file=docs%2Findex.md,docs%2F.vitepress%2Fconfig.js
+
 export default {
   title: "Notebook",
   description: "A notebook about engineering, computer science and other stuff",
