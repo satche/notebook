@@ -27,7 +27,7 @@ tags: [project-management]
 - **Daily Scrum**: a 15 minutes daily meeting
 - **Increment**: actual functional state of the product
 - **Sprint Review**: end-sprint meeting, involving Product Owner and stakeholders
-- **Sprint Retrospective**: end-sprint meeting, only involving the [Scrum Team](#scrum-team).
+- **Sprint Retrospective**: end-sprint meeting, only involving the Scrum Team.
 
 ![The Scrum Framework](https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-02/screenshot_2023-02-14_at_8.36.08_am.png)
 

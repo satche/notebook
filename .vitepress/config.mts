@@ -1,23 +1,38 @@
 import { generateSidebar } from "vitepress-sidebar";
 
-// TODO:
-// Find a way so filename with same name as folder are treated as index file
-// Example: /foo/bar/bar.md = /foo/bar/index.md
-
 // Caption to image: https://stackblitz.com/edit/vite-1p5ozg?file=docs%2Findex.md,docs%2F.vitepress%2Fconfig.js
+// Maybe outline should have deeper level
 
 export default {
   title: "Notebook",
   description: "A notebook about engineering, computer science and other stuff",
   base: "/notebook/",
   srcDir: "src",
-  srcExclude: ["WIP/**"],
+  srcExclude: ["wip/**"],
   cleanUrls: true,
+
+  // TODO: fix bad links rewriting
+  // https://vitepress.dev/guide/routing#route-rewrites
+
+  outline: {
+    level: [2, 3],
+  },
+
   markdown: {
     math: true,
   },
 
+  socialLinks: [
+    { icon: "github", link: "https://github.com/satche" },
+    { icon: "discord", link: "https://discord.com/users/623403349240446986" },
+    { icon: "instagram", link: "https://instagram.com/satche.ch" },
+  ],
+
   themeConfig: {
+    search: {
+      provider: "local",
+    },
+
     nav: [
       {
         text: "Notes",
@@ -95,19 +110,5 @@ export default {
         useFolderTitleFromIndexFile: true,
       },
     ]),
-
-    outline: {
-      level: 2,
-    },
-
-    socialLinks: [
-      { icon: "github", link: "https://github.com/satche" },
-      { icon: "discord", link: "https://discord.com/users/623403349240446986" },
-      { icon: "instagram", link: "https://instagram.com/satche.ch" },
-    ],
-
-    search: {
-      provider: "local",
-    },
   },
 };

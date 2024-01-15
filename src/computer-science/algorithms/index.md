@@ -16,6 +16,6 @@
 ## Resources
 
 - [List of algorithms](https://wikipedia.org/wiki/list_of_algorithms) – Wikipedia
-- [Algorithm and data structure visualization](https://www.cs.usfca.edu/~galles/visualization/algorithms.html) – David Galles
+- [Algorithm and data structure visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) – David Galles
 
 

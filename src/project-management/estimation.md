@@ -5,7 +5,7 @@ tags: [project-management]
 
 # Estimation
 
-In [Agile](index.md) methodologies, some principles and tools are often used for planning and time estimation.
+In [Agile](agile/index.md) methodologies, some principles and tools are often used for planning and time estimation.
 
 ## Story points
 
@@ -35,12 +35,12 @@ The [burndown chart](https://wikipedia.org/wiki/burndown_chart) is a graphical r
 **Preparation**
 - Select a Moderator (e.g. the [PO](agile/scrum.md#product-owner)) who usually don't play
 - Define cards with numbers on it
-	- Values represent time (hours, days) or more likely [Story points](#story-points)
+	- Values represent time (hours, days) or more likely Story points.
 	- You can even define a card with an unsure option, like a "?" sign.
 - Team members receive all the same cards
 
 **Procedure**
-- The Moderator gives an overview of a task, typically a [User Story](index.md#user-story).
+- The Moderator gives an overview of a task, typically a [User Story](agile/index.md#user-story).
 - Discussions occur with the team members to clarify assumptions and risks.
 - Team members vote by putting a card down.
 - Everyone reveals their card simultaneously.
