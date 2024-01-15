@@ -1,7 +1,5 @@
 import { generateSidebar } from "vitepress-sidebar";
-
-// Caption to image: https://stackblitz.com/edit/vite-1p5ozg?file=docs%2Findex.md,docs%2F.vitepress%2Fconfig.js
-// Maybe outline should have deeper level
+import imageFigures from "markdown-it-image-figures";
 
 export default {
   title: "Notebook",
@@ -12,7 +10,7 @@ export default {
   cleanUrls: true,
 
   rewrites: {
-    '^(?<rest>.*(?=\\/))?\\/?(?<dir>.+?)\\/\\2\\.md$': ':rest*/:dir/index.md',
+    "^(?<rest>.*(?=\\/))?\\/?(?<dir>.+?)\\/\\2\\.md$": ":rest*/:dir/index.md",
   },
 
   outline: {
@@ -21,6 +19,14 @@ export default {
 
   markdown: {
     math: true,
+    
+    // Image caption
+    config: md => {
+      md.use(imageFigures, {
+        figcaption: "title",
+        copyAttrs: "^class$",
+      });
+    },
   },
 
   socialLinks: [

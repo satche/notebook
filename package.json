@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "markdown-it-image-figures": "^2.1.1",
     "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "^1.0.0-rc.30",
     "vitepress-sidebar": "^1.18.0"
