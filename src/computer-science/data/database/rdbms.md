@@ -5,7 +5,7 @@ tags: []
 
 # RDBMS
 
-A [relational database](https://wikipedia.org/wiki/relational_database) is a type of database that stores information in tables that are related to each other. It is sometimes referred to as a Relational Database Management System (RDBMS). This architecture is in contrast to [NoSQL](nosql/index.md)
+A [relational database](https://wikipedia.org/wiki/relational_database) is a type of database that stores information in tables that are related to each other. It is sometimes referred to as a Relational Database Management System (RDBMS). This architecture is in contrast to [NoSQL](nosql/nosql.md)
 
 ## Description
 

@@ -17,4 +17,4 @@ Examples: physical server, Virtual Machines
 
 Systems are considered as interchangeable groups. Configuration is standardized and maintenance is automated. It offers high scalability and availability at a low cost, but lacks standardization, flexibility, and control.
 
-Examples: [cloud servers](../index.md), [containers](../virtualization.md#containers)
+Examples: [cloud servers](../cloud.md), [containers](../virtualization.md#containers)

@@ -14,7 +14,7 @@ tags: []
 
 ## BASE
 
-Since ACID properties can't be guarantee in [NoSQL](../../data/database/nosql/index.md) databases, they have their own [backronym](https://wikipedia.org/wiki/backronym) : the [BASE properties](https://wikipedia.org/wiki/eventual_consistency).
+Since ACID properties can't be guarantee in [NoSQL](../../data/database/nosql/nosql.md) databases, they have their own [backronym](https://wikipedia.org/wiki/backronym) : the [BASE properties](https://wikipedia.org/wiki/eventual_consistency).
 
 - **B**asically **A**available: guarantees availability of the data despite the workload by spreading and replicating across the node of the cluster.
 - **S**oft-state: database can change during updates or when adding/removing servers; it does not have to guarantee consistency at all times.

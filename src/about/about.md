@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # About
 
 Hey there!

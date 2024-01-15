@@ -5,7 +5,7 @@ tags: []
 
 # Security
 
-Note: this is an overview of security as a quality attribute. For more information, have a look at the [Cyber security](../../cyber-security/index.md) page.
+Note: this is an overview of security as a quality attribute. For more information, have a look at the [Cyber security](../../cyber-security/cyber-security.md) page.
 
 ## Scenario
 
