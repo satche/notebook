@@ -69,7 +69,8 @@ Based on their time complexity, algorithms can be categorised in different [comp
 ### P
 
 [P](https://en.wikipedia.org/wiki/P_(complexity)) is a *polynomial time* solvable problem.
-It takes $O(n^c)$ or less to *find* (or *verify*) a solution
+
+It takes $O(n^c)$ or less to *find* (or *verify*) a solution. Since those problem are relatively easy, we can use efficient algorithms to solve them.
 
 **Examples**
 - Sorting algorithms: [quicksort](sort/quicksort.md), bubble sort, merge sort, etc.
@@ -81,6 +82,8 @@ It takes $O(n^c)$ or less to *find* (or *verify*) a solution
 It takes more than $O(n^c)$ to *find* a yes/no solution (e.g. is the puzzle complete), but it's *verifiable* in polynomial time.
 
 For example, you can easily check if a sudoku puzzle is solved by check the row and columns containing the 9 numbers, but it takes more time to complete it.
+
+Algorithms usually rely on approximations (e.g heuristics) to find solutions for these kind of problems.
 
 ::: info Side note
 NP stands in fact for *Nondeterministic Polynomial*. It basically means that it *should* be solvable in polynomial time with theoretical nondeterministic machines.
