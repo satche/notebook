@@ -1,5 +1,7 @@
 ---
-next: false
+next:
+  text: Dart
+  link: code/languages/dart
 ---
 
 # Code
