@@ -1,9 +1,10 @@
-import { generateSidebar } from "vitepress-sidebar";
+import { description, repository } from '../package.json';
+import { generateSidebar } from "./sidebar";
 import imageFigures from "markdown-it-image-figures";
 
 export default {
   title: "Notebook",
-  description: "A notebook about engineering, computer science and other stuff",
+  description: description,
   base: "/notebook/",
   srcDir: "src",
   srcExclude: ["wip/**"],
@@ -29,12 +30,6 @@ export default {
     },
   },
 
-  socialLinks: [
-    { icon: "github", link: "https://github.com/satche" },
-    { icon: "discord", link: "https://discord.com/users/623403349240446986" },
-    { icon: "instagram", link: "https://instagram.com/satche.ch" },
-  ],
-
   themeConfig: {
     search: {
       provider: "local",
@@ -53,6 +48,12 @@ export default {
       { text: "About", link: "/about/" },
     ],
 
+    socialLinks: [
+      { icon: "github", link: repository.url.replace('.git', '')},
+      { icon: "discord", link: "https://discord.com/users/623403349240446986" },
+      { icon: "instagram", link: "https://instagram.com/satche.ch" },
+    ],
+
     // https://github.com/jooy2/vitepress-sidebar
     sidebar: generateSidebar([
       {
@@ -68,6 +69,7 @@ export default {
         useFolderTitleFromIndexFile: true,
         useFolderLinkFromIndexFile: true,
         convertSameNameSubFileToGroupIndexPage: true,
+        folderLinkNotIncludesFileName: true,
         manualSortFileNameByPriority: [
           "languages",
           "frameworks",
@@ -89,6 +91,7 @@ export default {
         useFolderTitleFromIndexFile: true,
         useFolderLinkFromIndexFile: true,
         convertSameNameSubFileToGroupIndexPage: true,
+        folderLinkNotIncludesFileName: true,
       },
       {
         documentRootPath: "src",
@@ -103,6 +106,7 @@ export default {
         useFolderTitleFromIndexFile: true,
         useFolderLinkFromIndexFile: true,
         convertSameNameSubFileToGroupIndexPage: true,
+        folderLinkNotIncludesFileName: true,
       },
       {
         documentRootPath: "src",
@@ -117,6 +121,7 @@ export default {
         useFolderTitleFromIndexFile: true,
         useFolderLinkFromIndexFile: true,
         convertSameNameSubFileToGroupIndexPage: true,
+        folderLinkNotIncludesFileName: true,
       },
       {
         documentRootPath: "src",
@@ -131,6 +136,7 @@ export default {
         useFolderTitleFromIndexFile: true,
         useFolderLinkFromIndexFile: true,
         convertSameNameSubFileToGroupIndexPage: true,
+        folderLinkNotIncludesFileName: true,
       },
     ]),
   },
