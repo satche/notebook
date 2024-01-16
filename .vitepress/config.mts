@@ -1,6 +1,8 @@
-import { description, repository } from '../package.json';
+import { description, repository } from "../package.json";
 import { generateSidebar } from "./sidebar";
 import imageFigures from "markdown-it-image-figures";
+
+const repoUrl = repository.url.replace(".git", "");
 
 export default {
   title: "Notebook",
@@ -20,7 +22,7 @@ export default {
 
   markdown: {
     math: true,
-    
+
     // Image caption
     config: md => {
       md.use(imageFigures, {
@@ -49,10 +51,28 @@ export default {
     ],
 
     socialLinks: [
-      { icon: "github", link: repository.url.replace('.git', '')},
+      { icon: "github", link: repoUrl },
       { icon: "discord", link: "https://discord.com/users/623403349240446986" },
       { icon: "instagram", link: "https://instagram.com/satche.ch" },
     ],
+
+    editLink: {
+      pattern: `${repoUrl}/edit/main/src/:path`,
+      text: "Suggest a change",
+    },
+
+    lastUpdated: {
+      text: "Last update: ",
+      formatOptions: {
+        dateStyle: "short",
+        timeStyle: "short",
+      },
+    },
+
+    footer: {
+      message: `Released under the <a href="${repoUrl}/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>.`,
+      copyright: `Copyright © 2024 - <a href="https://github.com/satche/" target="_blank" rel="noopener">Satche</a>`,
+    },
 
     // https://github.com/jooy2/vitepress-sidebar
     sidebar: generateSidebar([
