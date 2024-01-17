@@ -16,10 +16,6 @@ export default {
     "^(?<rest>.*(?=\\/))?\\/?(?<dir>.+?)\\/\\2\\.md$": ":rest*/:dir/index.md",
   },
 
-  outline: {
-    level: [2, 3],
-  },
-
   markdown: {
     math: true,
 
@@ -56,6 +52,26 @@ export default {
       { icon: "instagram", link: "https://instagram.com/satche.ch" },
     ],
 
+    sidebar: generateSidebar(
+      generateSidebarConfig([
+        {
+          name: "code",
+          order: ["languages", "frameworks", "libraries", "tools", "glossary"],
+        },
+        {
+          name: "computer-science",
+          order: ["algorithms", "search", "sort", "data-structures"],
+        },
+        { name: "project-management" },
+        { name: "ux-ui" },
+        { name: "about" },
+      ])
+    ),
+
+    outline: {
+      level: [2, 3],
+    },
+
     editLink: {
       pattern: `${repoUrl}/edit/main/src/:path`,
       text: "Suggest a change",
@@ -73,91 +89,35 @@ export default {
       message: `Released under the <a href="${repoUrl}/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>.`,
       copyright: `Copyright © 2024 - <a href="https://github.com/satche/" target="_blank" rel="noopener">Satche</a>`,
     },
-
-    // https://github.com/jooy2/vitepress-sidebar
-    sidebar: generateSidebar([
-      {
-        documentRootPath: "src",
-        scanStartPath: "code",
-        resolvePath: "/code/",
-        excludeFiles: ["code.md"],
-        rootGroupLink: "/",
-        rootGroupText: "Code",
-        collapsed: true,
-        capitalizeFirst: true,
-        useTitleFromFileHeading: true,
-        useFolderTitleFromIndexFile: true,
-        useFolderLinkFromIndexFile: true,
-        convertSameNameSubFileToGroupIndexPage: true,
-        folderLinkNotIncludesFileName: true,
-        manualSortFileNameByPriority: [
-          "languages",
-          "frameworks",
-          "libraries",
-          "tools",
-          "glossary",
-        ],
-      },
-      {
-        documentRootPath: "src",
-        scanStartPath: "computer-science",
-        resolvePath: "/computer-science/",
-        excludeFiles: ["computer-science.md"],
-        rootGroupLink: "/",
-        rootGroupText: "Computer Science",
-        collapsed: true,
-        capitalizeFirst: true,
-        useTitleFromFileHeading: true,
-        useFolderTitleFromIndexFile: true,
-        useFolderLinkFromIndexFile: true,
-        convertSameNameSubFileToGroupIndexPage: true,
-        folderLinkNotIncludesFileName: true,
-      },
-      {
-        documentRootPath: "src",
-        scanStartPath: "project-management",
-        resolvePath: "/project-management/",
-        excludeFiles: ["project-management.md"],
-        rootGroupLink: "/",
-        rootGroupText: "Project Management",
-        collapsed: true,
-        capitalizeFirst: true,
-        useTitleFromFileHeading: true,
-        useFolderTitleFromIndexFile: true,
-        useFolderLinkFromIndexFile: true,
-        convertSameNameSubFileToGroupIndexPage: true,
-        folderLinkNotIncludesFileName: true,
-      },
-      {
-        documentRootPath: "src",
-        scanStartPath: "ux-ui",
-        resolvePath: "/ux-ui/",
-        excludeFiles: ["ux-ui.md"],
-        rootGroupLink: "/",
-        rootGroupText: "UX/UI",
-        collapsed: true,
-        capitalizeFirst: true,
-        useTitleFromFileHeading: true,
-        useFolderTitleFromIndexFile: true,
-        useFolderLinkFromIndexFile: true,
-        convertSameNameSubFileToGroupIndexPage: true,
-        folderLinkNotIncludesFileName: true,
-      },
-      {
-        documentRootPath: "src",
-        scanStartPath: "about",
-        resolvePath: "/about/",
-        excludeFiles: ["about.md"],
-        rootGroupLink: "/",
-        rootGroupText: "About",
-        collapsed: true,
-        capitalizeFirst: true,
-        useTitleFromFileHeading: true,
-        useFolderTitleFromIndexFile: true,
-        useFolderLinkFromIndexFile: true,
-        convertSameNameSubFileToGroupIndexPage: true,
-        folderLinkNotIncludesFileName: true,
-      },
-    ]),
   },
 };
+
+function generateSidebarConfig(items) {
+  let config = [{}];
+
+  items.forEach(item => {
+    let name = item.name;
+    let itemOrder = item.order;
+
+    let itemConfig = {
+      documentRootPath: "src",
+      scanStartPath: name,
+      resolvePath: `/${name}/`,
+      excludeFiles: [`${name}.md`],
+      rootGroupLink: "/",
+      rootGroupText: name.charAt(0).toUpperCase() + name.slice(1),
+      collapsed: true,
+      capitalizeFirst: true,
+      useTitleFromFileHeading: true,
+      useFolderTitleFromIndexFile: true,
+      useFolderLinkFromIndexFile: true,
+      convertSameNameSubFileToGroupIndexPage: true,
+      folderLinkNotIncludesFileName: true,
+      manualSortFileNameByPriority: itemOrder ? itemOrder : [],
+    };
+
+    config.push(itemConfig);
+  });
+
+  return config;
+}
