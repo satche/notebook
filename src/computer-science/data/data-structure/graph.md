@@ -1,10 +1,14 @@
+---
+tags: [data-structure]
+---
+
 # Graph
 
 A [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) is a set of *vertices* (points) connected by *edges* (lines).
 
 We use specifics [graph algorithms](../../algorithms/graph/index.md) to efficiency resolve related problems.
 
-## Types
+## Types 
 
 ### Directed vs. undirected
 

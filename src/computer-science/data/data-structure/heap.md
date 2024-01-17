@@ -1,6 +1,10 @@
+---
+tags: [data-structure]
+---
+
 # Heap
 
-[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure) are like [tree](tree.md) data structures that satisfies the *heap property*. It means it's easier to remove highest or lowest nodes.
+[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure) are like [heap](../../../..//computer-science/data/data-structure/heap.md) data structures that satisfies the *heap property*. It means it's easier to remove highest or lowest nodes. 
 
 ## Fibonacci heap
 
