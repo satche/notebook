@@ -7,7 +7,7 @@ tags: [algorithm, algorithm/greedy, graph]
 
 [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm) is a [greedy](../algorithms.md#Terminology) algorithm used to find the [Minimum Spanning Tree](../../data/data-structure/tree.md#Minimum%20Spanning%20Tree) in a graph.
 
-![Animation of Prim's algorithm on a graph](../assets/PrimAlgDemo.gif '[Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm) - Wikipedia')
+![Animation of Prim's algorithm on a graph](../assets/prim.gif '[Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm) - Wikipedia')
 
 ## Algorithm
 
