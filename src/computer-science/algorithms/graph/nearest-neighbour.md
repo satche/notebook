@@ -1,6 +1,10 @@
+---
+tags: [algorithm, algorithm/greedy, graph]
+---
+
 # Nearest neighbour
 
-[Nearest neighbour](https://en.wikipedia.org/wiki/Nearest_neighbour_algorithm) is a greedy algorithm initially to find the shortest path in a [Traveling Salesman](../problems/traveling-salesman.md) problem.
+[Nearest neighbour](https://en.wikipedia.org/wiki/Nearest_neighbour_algorithm) is a [greedy](../algorithms.md#Terminology) algorithm initially to find the shortest path among a [graph](../../data/data-structure/graph.md). It is typically used to solve problems like [Traveling Salesman](../problems/traveling-salesman.md).
 
 It basically works like this:
 
