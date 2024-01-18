@@ -1,5 +1,5 @@
 ---
-tags: [algorithm, algorithm/greedy, graph]
+tags: [algorithm, algorithm/greedy, data-structure/graph]
 ---
 
 # Nearest neighbour
