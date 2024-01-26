@@ -10,5 +10,3 @@ tags: []
 - **Why**: define the philosophy, values, promises, purposes, what you believe in.
 - **How**: define the marketing, the communications canals, what make it special.
 - **What**: define the product and/or service you want to offer.
-
-![Golden circle schema](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/golden_circle.png/340px-golden_circle.png)

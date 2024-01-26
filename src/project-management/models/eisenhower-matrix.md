@@ -11,5 +11,3 @@ The [Eisenhower matrix](https://wikipedia.org/wiki/time_management#the_eisenhowe
 2. **Important and Not Urgent**: tasks get an end date and are done personally (e.g. relationships, planning, recreation).
 3. **Unimportant and Urgent**: tasks are delegated (e.g. interruptions, meetings, activities).
 4. **Unimportant and Not Urgent**: tasks are dropped (e.g. time wasters, pleasant activities, trivia).
-
-![Eisenhower matrix example](https://upload.wikimedia.org/wikipedia/commons/3/32/merrillcoveymatrix.png)

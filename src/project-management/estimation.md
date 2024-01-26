@@ -22,8 +22,6 @@ Story points can be used instead of absolute time units, such as hours or day.
 
 The [burndown chart](https://wikipedia.org/wiki/burndown_chart) is a graphical representation of work left to do versus time.
 
-![Burndown chart example](https://upload.wikimedia.org/wikipedia/commons/8/8c/burn_down_chart.png)
-
 ## Velocity
 
 [Velocity](https://wikipedia.org/wiki/velocity_(software_development)) is a metric to measure the amount of work done.
