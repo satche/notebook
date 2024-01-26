@@ -27,13 +27,6 @@ tags: []
 	- 1 kilobit (Kb) = 1000 bits = 125 bytes
 - On the table above, *magnitude* is represented in decimal value (base 10). To represents binary architecture (base 2) of computers, we can use a [binary prefix](https://wikipedia.org/wiki/binary_prefix): 1 kibibyte (KiB) = 1024 B.
 
-## Data structure
-
-- https://wikipedia.org/wiki/Data_structure
-- https://wikipedia.org/wiki/Binary_tree
-	- https://wikipedia.org/wiki/Tree_rotation
-- https://wikipedia.org/wiki/Fibonacci_heap
-
 ### Hash
 
 A [hash table](https://wikipedia.org/wiki/hash_table) (or *hash map*) store large amounts of data. [Hash function](https://wikipedia.org/wiki/hash_function) are used to keep track of it.
