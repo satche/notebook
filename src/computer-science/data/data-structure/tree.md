@@ -17,6 +17,10 @@ In a [binary tree](https://en.wikipedia.org/wiki/Binary_tree), each children has
 
 ![Example of a tree data structure](../assets/binary-tree.svg)
 
+### Tree rotation
+
+ A [tree rotation]( https://wikipedia.org/wiki/Tree_rotation) changes the structure of the tree without interfering with the order of the elements.
+
 ### Spanning tree
 
 A graph can contains a [spanning tree](https://en.wikipedia.org/wiki/Spanning_tree), which connect all its vertices together, without create loops.
