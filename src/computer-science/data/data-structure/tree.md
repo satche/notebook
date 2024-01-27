@@ -1,5 +1,5 @@
 ---
-tags: [data-structure]
+tags: [data-structure, data-structure/tree]
 ---
 
 # Tree

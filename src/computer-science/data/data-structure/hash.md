@@ -1,3 +1,7 @@
+---
+tags: [data, data-structure]
+---
+
 # Hash
 
 A [hash table](https://wikipedia.org/wiki/hash_table) (or *hash map*) store large amounts of data. [Hash function](https://wikipedia.org/wiki/hash_function) are used to keep track of it.

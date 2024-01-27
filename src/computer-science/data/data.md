@@ -1,7 +1,3 @@
----
-aliases: []
-tags: []
----
 
 # Data
 
