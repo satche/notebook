@@ -1,3 +1,7 @@
+---
+tags: [algorithm, algorithm/problem]
+---
+
 # Graph coloring problem
 
 [Graph coloring](https://en.wikipedia.org/wiki/Graph_coloring) problems include the coloring (or labeling) of vertices in a [graph](../graph/graph.md).

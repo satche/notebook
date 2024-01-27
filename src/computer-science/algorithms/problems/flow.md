@@ -1,5 +1,5 @@
 ---
-tags: [algorithm]
+tags: [algorithm, algorithm/problem]
 ---
 
 # Flow cost problem

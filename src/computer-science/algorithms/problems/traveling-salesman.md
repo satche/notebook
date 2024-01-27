@@ -1,5 +1,9 @@
 ---
-aliases: [TSP]
+aliases:
+  - TSP
+tags:
+  - algorithm
+  - algorithm/problem
 ---
 
 # Traveling Salesman Problen

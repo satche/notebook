@@ -1,3 +1,7 @@
+---
+tags: [algorithm, algorithm/problem]
+---
+
 # Knapsack problem
 
 The [knapsack problem](https://wikipedia.org/wiki/knapsack_problem) is a combinatorial optimization problem, used in resource allocation. It can concern for example: minimal waste in material cutting, selection of investements, cryoptgraphy, etc.

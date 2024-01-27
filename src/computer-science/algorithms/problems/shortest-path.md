@@ -1,5 +1,8 @@
 ---
-tags: [algorithm, data-structure/graph]
+tags:
+  - algorithm
+  - data-structure/graph
+  - algorithm/problem
 ---
 
 # Shortest path problem

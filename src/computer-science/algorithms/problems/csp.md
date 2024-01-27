@@ -1,3 +1,7 @@
+---
+tags: [algorithm, algorithm/problem]
+---
+
 # Constraint Satisfaction Problem
 
 [Constraint Satisfaction Problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) (CSP)
@@ -11,7 +15,7 @@ Assign value at each variable, making sure constraints are respected.
 - Then, remove available values for other variable to still respect the constraints
 - If a variable has no more value available, we return an error
 
-We use [backtracking](https://en.wikipedia.org/wiki/Backtracking) is a recursive method used in CSP: it gradually finds candidate solutions and abandons candidates (backtracks) when a candidate cannot be a good solution.
+We use [backtracking](https://en.wikipedia.org/wiki/Backtracking) is a recursive method used in CSP: it gradually finds candidate solutions and abandons candidates (backtracks) when a candidate cannot be a good solution. 
 
 ## Heuristics
 
