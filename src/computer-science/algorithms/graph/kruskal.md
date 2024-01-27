@@ -23,7 +23,7 @@ Its behaviour is similar to [Prim's algorithm](prim.md), but it uses multiple tr
 
 ## Complexity
 
-- **Worst-case**: $O(|E| \log |V|)$
+Kruskal algorithm has a [time complexity](../complexity.md) of $O(|E| \log |V|)$
 
 ## Resources
 
