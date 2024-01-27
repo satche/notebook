@@ -1,12 +1,12 @@
 ---
-tags: [data-structure]
+tags: [data-structure, data-structure/graph]
 ---
 
 # Graph
 
 A [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) is a set of *vertices* (points) connected by *edges* (lines).
 
-We use specifics [graph algorithms](../../algorithms/graph/index.md) to efficiency resolve related problems.
+We use specifics [graph](../../algorithms/graph/graph.md) to efficiency resolve related problems.
 
 ## Structure
 
@@ -64,8 +64,8 @@ Source: [VisualMath](https://www.youtube.com/watch?v=CEOGcSCTar8) – Youtube
 	- Undirected graphes: DFS, BFS 
 - Find shortest path between 2 nodes
 	- Bellman-Ford
-	- [Dijkstra](../../../algorithms/graph/dijkstra.md) (positive weights only)
-	- [Floyd-warshall](../../../algorithms/graph/floyd-warshall.md) (positive and negative, find shortest path for all nodes)
-- Connect all vertices together with edges subsets ([Minimum Spanning Tree](../../data-structure/tree.md#Minimum%20Spanning%20Tree))
-	- [Prim](../../../algorithms/graph/prim.md) (denses graphs)
-	- [Kruskal](../../../algorithms/graph/kruskal.md) (less denses graphs)
+	- [Dijkstra](../../algorithms/graph/dijkstra.md) (positive weights only)
+	- [Floyd-warshall](../../algorithms/graph/floyd-warshall.md) (positive and negative, find shortest path for all nodes)
+- Connect all vertices together with edges subsets ([Minimum Spanning Tree](tree.md#Minimum%20Spanning%20Tree))
+	- [Prim](../../algorithms/graph/prim.md) (denses graphs)
+	- [Kruskal](../../algorithms/graph/kruskal.md) (less denses graphs)
