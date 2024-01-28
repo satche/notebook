@@ -19,3 +19,4 @@ Tabu search impose one or many rules to prohibit movements and relax the basic r
 
 Here is some problems you can apply tabu search to.
 - [Knapsack](../problems/knapsack.md)
+- [Traveling Salesman](../problems/traveling-salesman.md)

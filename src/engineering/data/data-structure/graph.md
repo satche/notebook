@@ -57,6 +57,10 @@ $E$ is the number of edges
 ![Comparison between eulerian and hamiltonian graphs](../assets/euler-vs-hamilton.png)
 Source: [VisualMath](https://www.youtube.com/watch?v=CEOGcSCTar8) – Youtube
 
+### Bipartite
+
+A graph is [bipartite](https://en.wikipedia.org/wiki/Bipartite_graph) if the vertices can be split into two subsets
+
 ## Algorithms
 
 - Find if path exists between 2 nodes

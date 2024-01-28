@@ -4,7 +4,7 @@ aliases: [Big O notation, Time complexity, P complexity, NP complexity]
 
 # Time complexity
 
-We define [time complexity](https://wikipedia.org/wiki/time_complexity) as the time a computer take to run an algorithm.
+We define [time complexity](https://wikipedia.org/wiki/time_complexity) as the time a computer take to run an [algorithm](algorithms.md).
 
 ## Notation
 
@@ -15,7 +15,7 @@ The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an alg
 | Notation | Name | Example |
 | ---- | ---- | ---- |
 | $O(1)$ | [constant](https://wikipedia.org/wiki/constant_time) | Determine if number is even or odd |
-| $O(\log n)$ | [logarithmic](https://wikipedia.org/wiki/logarithmic_time "logarithmic time") | [binary-search](search/binary-search.md) |
+| $O(\log n)$ | [logarithmic](https://wikipedia.org/wiki/logarithmic_time "logarithmic time") | [Binary search](search/binary-search.md) |
 | $O(n)$ | [linear](https://wikipedia.org/wiki/linear_time "linear time") | Find item in an unsorted list/array |
 | $O(n\log n)$ | [linearithmic](https://wikipedia.org/wiki/linearithmic_time "linearithmic time") | (to complete) |
 | $O(n^2)$ | [quadratic](https://wikipedia.org/wiki/quadratic_time "quadratic time") | (to complete) |
@@ -40,7 +40,7 @@ Let say there is 100 persons, you give a coin to one of them, and you have to fi
 
 ### Big Omega / Theta 
 
-As Big O notation define the worst-case scenario for an algorithm, Big Omega and Big Theta define respectively the best and mean case.
+As Big O notation define the **worst-case** scenario for an algorithm, Big Omega and Big Theta define respectively the **best** and **mean** case.
 
 **Example**
 Back to previous example: there is 100 persons, one of them has coin. You ask to each of them if they have it.
