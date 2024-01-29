@@ -13,7 +13,7 @@ A [tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) is a hierarchical 
 
 ### Binary tree
 
-In a [binary tree](https://en.wikipedia.org/wiki/Binary_tree), each children has no more than two parents.
+In a [binary tree](https://en.wikipedia.org/wiki/Binary_tree), each item within the tree has at most two children.
 
 ![Example of a tree data structure](../assets/binary-tree.svg)
 
