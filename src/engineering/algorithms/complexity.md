@@ -26,7 +26,7 @@ The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an alg
 
 ![A graphical plot of time complexity comparison](assets/complexity-comparison-plot.png)
 
-Keep in mind notation can have more than one type of input. Two different lists could involve a $O(n+m)$ type of complexity, or $O(n\times m)$ if they depend on each other.
+Keep in mind notation can have more than one type of input. Two different lists could involve a $O(n+m)$ type of complexity, or $O(n\times m)$ if they depend on each other. We typically use notation like $O(|V|+|E|)$ in [graphs](graph/graph.md), where the number of vertices and edges can influence the performances.
 
 **Example**
 Let say there is 100 persons, you give a coin to one of them, and you have to find it. They can only answer by yes or no.
