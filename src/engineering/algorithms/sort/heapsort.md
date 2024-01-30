@@ -4,7 +4,7 @@ tags: [algorithm, "algorithm/sort"]
 
 # Heapsort
 
-The [heapsort](https://en.wikipedia.org/wiki/Heapsort) is a sorting algorithm using [max-heaps](../../data/data-structure/heap.md) data structure. It basically works like this:
+The [heapsort](https://en.wikipedia.org/wiki/Heapsort) is a sorting algorithm using [max-heaps](../../data/data-structure/heap/heap.md) data structure. It basically works like this:
 
 1. Divides the input into a sorted and an unsorted region.
 2. Takes the largest element from the unsorted region and inserts it into the sorted region.

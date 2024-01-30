@@ -21,7 +21,7 @@ It works well for dense graphs.
 
 Prim algorithm [complexity](../complexity.md) can change depending of the data structure used.
 
-| Operation | Array | List | [Tree](../../data/data-structure/tree.md) | [Heap](../../data/data-structure/heap.md) | [Fibonacci heap](../../data/data-structure/heap.md#Fibonacci%20heap) |
+| Operation | Array | List | [Tree](../../data/data-structure/tree.md) | [Heap](../../data/data-structure/heap/heap.md) | [Fibonacci heap](../../data/data-structure/heap/heap.md#Fibonacci%20heap) |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | Insert | $O(1)$ | $O(1)$ | $O(\log n)$ | $O(\log n)$ | $O(1)$ |
 | Access minimum | $O(n)$ | $O(n)$ | $O(\log n)$ | $O(1)$ | $O(1)$ |
