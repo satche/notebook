@@ -6,11 +6,25 @@ aliases: [Big O notation, Time complexity, P complexity, NP complexity]
 
 We define [time complexity](https://wikipedia.org/wiki/time_complexity) as the time a computer take to run an [algorithm](algorithms.md).
 
+The time to run operations grow with the input size, e.g. items in an array or vertices and edge in a [graph](../data/database/nosql/graph.md).
+
+## Approaches
+
+Depending on the size of the problem, we have to balance speed over precision. If we have a complex problem with a lot of data, maybe we'll need to find a good solution quickly rather than the perfect solution slowly.
+
+| Category | Size | Typical approach |
+| ---- | ---- | ---- |
+| Tiny | Exhaustive | $n\approx10$ |
+| Small | Implicit | $10\le n \le 10^2$ |
+| Standard | [Metaheuristic](algorithms.md#Terminology) | $10^2 \le n \le 10^4$ |
+| Big | Decomposition | $10^4 \le n \le 10^7$ |
+| Huge | Big data | $n \gt 10^7$ |
+
 ## Notation
 
 ### Big O
 
-The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an algorithm's performance get bigger as its input ($n$) increases. In short: how does the time it takes to do the operation growth as we add more elements.
+The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an algorithm's performance get bigger as its input $n$ increases. In short: how does the time it takes to do the operation growth as we add more elements.
 
 | Notation | Name | Example |
 | ---- | ---- | ---- |
@@ -102,3 +116,4 @@ NP stands in fact for *Nondeterministic Polynomial*. It basically means that it 
 
 - [bigocheatsheet.io](https://bigocheatsheet.io) – Cheatsheet containing data structures and algorithms
 - [bigocheatsheet.com](https://www.bigocheatsheet.com/) – Overview with chart and tables
+- [Big O notation in 5 minutes](https://www.youtube.com/watch?v=__vX2sjlpXU) – Youtube

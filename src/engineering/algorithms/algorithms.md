@@ -1,5 +1,9 @@
 # Algorithms
 
+An [algorithm](https://en.wikipedia.org/wiki/Algorithm) can be defined as a sequence of operations tailored to solve a specific problem.
+
+We usually measure the performance of an algorithm by its [time complexity](complexity.md) during runtime.
+
 ## Terminology
 
 - [Heuristic](https://wikipedia.org/wiki/heuristic_(computer_science)): give a quick solution but usually not optimal
@@ -17,5 +21,4 @@
 
 - [List of algorithms](https://wikipedia.org/wiki/list_of_algorithms) – Wikipedia
 - [Algorithm and data structure visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) – David Galles
-
-
+- [Michael Sambol](https://www.youtube.com/@MichaelSambol) – Youtube Channel

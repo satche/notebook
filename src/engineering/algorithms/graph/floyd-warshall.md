@@ -22,4 +22,4 @@ Note: if you repeat $|V|$ time the [Dijkstra](dijkstra.md) algorithm instead, th
 
 ## Resources
 
-- [Floyd-Warshall in 4 min.](https://www.youtube.com/watch?v=4OQeCuLYj-4) – Youtube
+- [Floyd-Warshall in 4 minutes](https://www.youtube.com/watch?v=4OQeCuLYj-4) – Youtube
