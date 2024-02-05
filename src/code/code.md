@@ -30,7 +30,7 @@ Here is a collection of page about programming languages, frameworks and other c
 
 - Markup languages are used to present and describe in a structural way.
 - Don't contain logics or algorithm.
-- Usually used in [web](../computer-science/infrastructure/web/web.md).
+- Usually used in [web](../engineering/infrastructure/web/web.md).
 - **Analogy**: you just baked a pizza and need to write the menu.
 - **Examples**: HTML, CSS, XML
 

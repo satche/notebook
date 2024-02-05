@@ -4,4 +4,4 @@ next:
   link: agile/
 ---
 
-# Project management
+# Management

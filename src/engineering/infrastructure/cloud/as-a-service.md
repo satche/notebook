@@ -5,7 +5,7 @@ tags: []
 
 # As a Service
 
-The term [As a Service](https://wikipedia.org/wiki/as_a_service) defines a model of [index](index.md) architecture. It summarizes how software, infrastructure, platforms, and other services are delivered over a network. It defines which parts of a product are handled by the user or the provider.
+The term [As a Service](https://wikipedia.org/wiki/as_a_service) defines a model of [index](../../../index.md) architecture. It summarizes how software, infrastructure, platforms, and other services are delivered over a network. It defines which parts of a product are handled by the user or the provider.
 
 ## Overview
 
@@ -51,7 +51,7 @@ Programming is event-based: the function of an application is triggered after a 
 
 In a nutshell: **no charge** is applicable when your code is **not running**.
 
-Read more: [OPEX](../../../project-management/glossary/tco.md#opex)
+Read more: [OPEX](../../../management/glossary/tco.md#opex)
 
 ### Lifecycle
 

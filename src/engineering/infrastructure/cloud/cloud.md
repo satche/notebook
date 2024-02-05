@@ -36,7 +36,7 @@ Cloud computing allow a lot of benefits compared to a single centralized server:
 
 - [Availability](../../architecture/quality-attributes/availability.md) – If a server goes down (e.g. due to too much demand), another server is able to handle the requests
 - [Security](../../architecture/quality-attributes/security.md) – Cloud providers can guarantee data center protection, with monitoring, 24/7 surveillance, etc.
-- [Costs](../../../project-management/glossary/tco.md) – Cloud is financially interesting as it allows to adapt resources (and therefore costs) with the demand
+- [Costs](../../../management/glossary/tco.md) – Cloud is financially interesting as it allows to adapt resources (and therefore costs) with the demand
 
 ## Resources
 

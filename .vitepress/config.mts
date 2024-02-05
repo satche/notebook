@@ -38,8 +38,8 @@ export default {
         text: "Notes",
         items: [
           { text: "Code", link: "/code/" },
-          { text: "Computer Science", link: "/computer-science/" },
-          { text: "Project management", link: "/project-management/" },
+          { text: "Engineering", link: "/engineering/" },
+          { text: "Management", link: "/management/" },
           { text: "UX/UI", link: "/ux-ui/" },
         ],
       },
@@ -59,10 +59,10 @@ export default {
           order: ["languages", "frameworks", "libraries", "tools", "glossary"],
         },
         {
-          name: "computer-science",
+          name: "engineering",
           order: ["algorithms", "search", "sort", "data-structures"],
         },
-        { name: "project-management" },
+        { name: "management" },
         { name: "ux-ui" },
         { name: "about" },
       ])

@@ -48,7 +48,7 @@ $ kubectl delete pod <name>
 	- Memory
 	- Storage volumes
 	- Network (same IP. They use localhost to communicate between them)
-- [Cattle](../../computer-science/devops/glossary/pet-vs.-cattle.md#cattle) strategy: if a container fail, whole pod is recreated from scratch
+- [Cattle](../../engineering/devops/glossary/pet-vs.-cattle.md#cattle) strategy: if a container fail, whole pod is recreated from scratch
 - Labels: key-value tag assigned to pods to help services target them with queries
 
 ### Services

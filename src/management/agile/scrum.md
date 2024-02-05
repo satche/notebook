@@ -5,7 +5,7 @@ tags: [project-management]
 
 # Scrum
 
-[Scrum](https://wikipedia.org/wiki/scrum_(software_development)) is an [Agile](index.md) framework designed for small teams (10 or less). Small pieces of work are delivered frequently, at each sprints.
+[Scrum](https://wikipedia.org/wiki/scrum_(software_development)) is an [Agile](../../index.md) framework designed for small teams (10 or less). Small pieces of work are delivered frequently, at each sprints.
 
 ## Values
 
@@ -23,7 +23,7 @@ tags: [project-management]
 
 - **Product backlog**: requirements for the final product.
 - **Sprint planning**: organise incoming sprint (~8h for a 4-weeks sprint).
-- **Sprint backlog**: requirements for the current sprint. Usually (but not necessary) made of [User Stories](index.md#user-story)
+- **Sprint backlog**: requirements for the current sprint. Usually (but not necessary) made of [User Stories](../../index.md#user-story)
 - **Daily Scrum**: a 15 minutes daily meeting
 - **Increment**: actual functional state of the product
 - **Sprint Review**: end-sprint meeting, involving Product Owner and stakeholders
