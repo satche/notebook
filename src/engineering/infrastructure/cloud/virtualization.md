@@ -17,7 +17,7 @@ Containers have some advantages over virtual machines. As it don’t take a whol
 
 The container isolates the application from its environment. It enhances cross-platform portability, flexibility in the deployment of applications and improve security. The communication between containers are allowed, unless in a VM.
 
-In a [pet vs. Cattle](../../devops/glossary/pet-vs.-cattle.md) model, it is cattle-oriented.
+In a [pet vs. Cattle](../../devops/glossary/pet-vs-cattle.md) model, it is cattle-oriented.
 
 ### Cluster and orchestration
 

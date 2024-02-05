@@ -21,7 +21,7 @@ There is two types of hypervisor:
 
 ## Virtual Machines
 
-- [Pets](glossary/pet-vs.-cattle.md#pets) type
+- [Pets](glossary/pet-vs-cattle.md#pets) type
 
 ## Containerization
 
@@ -33,4 +33,4 @@ Containers is the principle to run processes, like applications, in an isolated 
 - Run natively on the machine
 - Good for reproducibility, consistency and scaling
 - Isolation at process level (less secure than VMs)
-- [Cattle](glossary/pet-vs.-cattle.md#cattle) type
+- [Cattle](glossary/pet-vs-cattle.md#cattle) type
