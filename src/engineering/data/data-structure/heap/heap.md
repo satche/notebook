@@ -12,7 +12,7 @@ There is 2 types of heaps:
 
 ## Variants
 
-There is many variants on the data structure implementation of heaps. You'll find some of them below, but don't hesitate to have a look at the [complete list]([complete list](https://en.wikipedia.org/wiki/Heap_(data_structure)#Variants)).
+There is many variants on the data structure implementation of heaps. You'll find some of them below, but don't hesitate to have a look at the [complete list]([complete list](https://en.wikipedia.org/wiki/Heap_(data_structure)#Variants).
 
 ### Binary heap
 
@@ -20,7 +20,7 @@ A [binary heap](https://en.wikipedia.org/wiki/Binary_heap) is structured like a 
 
 ### Other heaps
 
-- [Fibonacci Heap](fibonacci-heap.md)
+- [Fibonacci heap](fibonacci-heap.md)
 
 ## Resources
 

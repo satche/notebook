@@ -4,7 +4,7 @@ tags: [data-structure, data-structure/tree]
 
 # Fibonacci Heap
 
-[Fibonacci heap](https://en.wikipedia.org/wiki/Fibonacci_heap) is a [heap](heap.md) [data-structure](../data-structure.md) that mimics the [fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence). It is very interesting to use to find [minimum spanning tree](../tree.md#Minimum%20Spanning%20Tree) and single source [shortest path](../../../algorithms/problems/shortest-path.md), like in [Dijkstra](../../../algorithms/graph/dijkstra.md) algorithm.
+[Fibonacci heap](https://en.wikipedia.org/wiki/Fibonacci_heap) is a [heap](heap.md) [data-structure](../data-structure.md) that mimics the [fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence). It is very interesting to use to find [Minimum Spanning Tree](../tree.md#Minimum%20Spanning%20Tree) and single source [shortest path](../../../algorithms/problems/shortest-path.md), like in [Dijkstra](../../../algorithms/graph/dijkstra.md) algorithm.
 
 As it's somehow complex to implement, it's not very used in practice.
 
