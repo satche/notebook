@@ -78,7 +78,8 @@ In the previous example, finding a coin among 100 persons would need to check ~5
 
 ## Complexity classes
 
-Based on their time complexity, algorithms can be categorised in different [complexity classes](https://en.wikipedia.org/wiki/Complexity_class). You can check the [complete list](https://en.wikipedia.org/wiki/List_of_complexity_classes), but here are some of the most common ones.
+Based on their time complexity, algorithms can be categorised in different [complexity classes](https://en.wikipedia.org/wiki/Complexity_class). 
+You can check the [complete list](https://en.wikipedia.org/wiki/List_of_complexity_classes), but here are some of the most common ones.
 
 ### P
 
@@ -111,6 +112,10 @@ NP stands in fact for *Nondeterministic Polynomial*. It basically means that it 
 - Finding prime number (NP)
 - [Traveling Salesman](problems/traveling-salesman.md), [Knapsack](problems/knapsack.md), [Graph coloring](problems/graph-coloring.md) (NP-complete)
 - [Halting](problems/halting.md) (NP-hard)
+
+## Problems
+
+- [P vs. NP](problems/p-vs-np.md)
 
 ## Resources
 

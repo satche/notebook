@@ -6,7 +6,7 @@ tags: [data-structure, data-structure/graph]
 
 A [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) is a set of *vertices* (points) connected by *edges* (lines).
 
-We use specifics [graph](../../algorithms/graph/graph.md) to efficiency resolve related problems.
+We use specifics [graph algorithms](../../algorithms/graph/graph.md) to efficiency resolve related problems.
 
 ## Structure
 
