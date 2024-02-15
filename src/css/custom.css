@@ -1,0 +1,23 @@
+:root {
+  --ifm-color-primary: #e11887;
+  --ifm-color-primary-dark: color-mix(in srgb, var(--ifm-color-primary) 20%, black);
+  --ifm-color-primary-darker: color-mix(in srgb, var(--ifm-color-primary) 40%, black);
+  --ifm-color-primary-darkest: color-mix(in srgb, var(--ifm-color-primary) 60%, black);
+  --ifm-color-primary-light: color-mix(in srgb, var(--ifm-color-primary) 20%, white);
+  --ifm-color-primary-lighter: color-mix(in srgb, var(--ifm-color-primary) 40%, white);
+  --ifm-color-primary-lightest: color-mix(in srgb, var(--ifm-color-primary) 60%, white);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #f63f9a;
+  --ifm-color-primary-dark: color-mix(in srgb, var(--ifm-color-primary) 20%, black);
+  --ifm-color-primary-darker: color-mix(in srgb, var(--ifm-color-primary) 40%, black);
+  --ifm-color-primary-darkest: color-mix(in srgb, var(--ifm-color-primary) 60%, black);
+  --ifm-color-primary-light: color-mix(in srgb, var(--ifm-color-primary) 20%, white);
+  --ifm-color-primary-lighter: color-mix(in srgb, var(--ifm-color-primary) 40%, white);
+  --ifm-color-primary-lightest: color-mix(in srgb, var(--ifm-color-primary) 60%, white);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
