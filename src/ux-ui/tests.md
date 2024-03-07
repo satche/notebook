@@ -12,3 +12,7 @@ tags: []
     - Open: let users create categories/groups according to their own criteras
     - Closed: give groups/categories the user need to use
 - [Treejack](https://www.nngroup.com/articles/tree-testing/): ask user to access content in a tree representation
+
+## Resources
+
+- [Card Sorting vs. Tree Sorting](https://www.nngroup.com/articles/card-sorting-tree-testing-differences/) – NNGroup
