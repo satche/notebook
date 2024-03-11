@@ -100,9 +100,8 @@ For example, you can easily check if a sudoku puzzle is solved by check the row 
 
 Algorithms usually rely on approximations (e.g heuristics) to find solutions for these kind of problems.
 
-::: info Side note
-NP stands in fact for *Nondeterministic Polynomial*. It basically means that it *should* be solvable in polynomial time with theoretical nondeterministic machines.
-:::
+> [!NOTE]
+> NP stands in fact for *Nondeterministic Polynomial*. It basically means that it *should* be solvable in polynomial time with theoretical nondeterministic machines.
 
 **Sub-classes**
 - [NP-complete](https://en.wikipedia.org/wiki/NP-complete): if we find a polynomial time algorithm to solve these problems, we could solve any other NP problems.

@@ -1,8 +1,3 @@
----
-aliases: []
-tags: []
----
-
 # Binary search
 
 The [binary search](https://wikipedia.org/wiki/binary_search) is used to find a value by splitting the interval into two at each iteration. For that, the list/array should be sorted.
