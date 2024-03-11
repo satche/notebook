@@ -1,6 +1,6 @@
 # Notebook
 
-This repo contains personal notes about engineering, computer science and other stuff related to thoses topics.
+A collection of notes about engineering, computer science and other stuff
 
 ## About
 
