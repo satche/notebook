@@ -34,22 +34,14 @@ export default {
     },
 
     nav: [
-      {
-        text: "Notes",
-        items: [
-          { text: "Code", link: "/code/" },
-          { text: "Engineering", link: "/engineering/" },
-          { text: "Management", link: "/management/" },
-          { text: "UX/UI", link: "/ux-ui/" },
-        ],
-      },
-      { text: "About", link: "/about/" },
+      { text: "Code", link: "/code/", activeMatch: "/code/" },
+      { text: "Engineering", link: "/engineering/", activeMatch: "/engineering/" },
+      { text: "Management", link: "/management/", activeMatch: "/management/" },
+      { text: "UX/UI", link: "/ux-ui/", activeMatch: "/ux-ui/" },
     ],
 
     socialLinks: [
       { icon: "github", link: repoUrl },
-      { icon: "discord", link: "https://discord.com/users/623403349240446986" },
-      { icon: "instagram", link: "https://instagram.com/satche.ch" },
     ],
 
     sidebar: generateSidebar(
@@ -62,9 +54,12 @@ export default {
           name: "engineering",
           order: ["algorithms", "search", "sort", "data-structures"],
         },
-        { name: "management" },
-        { name: "ux-ui" },
-        { name: "about" },
+        {
+          name: "management",
+        },
+        {
+          name: "ux-ui",
+        },
       ])
     ),
 
