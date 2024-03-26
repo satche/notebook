@@ -1,5 +1,4 @@
 ---
-aliases: []
 tags: [ux, glossary]
 ---
 
@@ -24,4 +23,4 @@ Sometimes, we trade *learnability*, *memorability* and *errors* to another quali
 ## Resources
 
 - [Usability 101: Introduction to Usability](https://www.nngroup.com/articles/usability-101-introduction-to-usability/) – NN Group
-- [ISO 9241-11](https://wikipedia.org/wiki/iso_9241#iso_9241-11) – Wikipedia
+- [ISO 9241-11](https://en.wikipedia.org/wiki/ISO_9241) – Wikipedia
