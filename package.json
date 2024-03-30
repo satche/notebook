@@ -15,11 +15,11 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
-    "@types/node": "^20.11.19",
+    "@types/node": "^20.12.2",
     "markdown-it-image-figures": "^2.1.1",
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.0.0-rc.42",
-    "vitepress-sidebar": "^1.18.6"
+    "vitepress": "^1.0.1",
+    "vitepress-sidebar": "^1.22.0"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
