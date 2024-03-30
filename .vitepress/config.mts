@@ -73,7 +73,7 @@ export default {
     },
 
     lastUpdated: {
-      text: "Last update: ",
+      text: "Last update",
       formatOptions: {
         dateStyle: "short",
         timeStyle: "short",
