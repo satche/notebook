@@ -37,7 +37,7 @@ export default {
       { text: "Code", link: "/code/", activeMatch: "/code/" },
       { text: "Engineering", link: "/engineering/", activeMatch: "/engineering/" },
       { text: "Management", link: "/management/", activeMatch: "/management/" },
-      { text: "UX/UI", link: "/ux-ui/", activeMatch: "/ux-ui/" },
+      { text: "UX", link: "/ux/", activeMatch: "/ux/" },
     ],
 
     socialLinks: [
@@ -58,7 +58,7 @@ export default {
           name: "management",
         },
         {
-          name: "ux-ui",
+          name: "ux",
         },
       ])
     ),
@@ -100,7 +100,7 @@ function generateSidebarConfig(items) {
       resolvePath: `/${name}/`,
       excludeFiles: [`${name}.md`],
       rootGroupLink: "/",
-      rootGroupText: name.charAt(0).toUpperCase() + name.slice(1),
+      rootGroupText: name.toUpperCase(),
       collapsed: true,
       capitalizeFirst: true,
       useTitleFromFileHeading: true,
