@@ -24,6 +24,14 @@ There is no clear definition of what's intelligent and what's not. For example, 
 
 There is many way to answer the question. A famous one is the [Turing test](https://en.wikipedia.org/wiki/Turing_test). If users interact with a program but think it's a human, it passes the test.
 
+## ELIZA Effect
+
+The [ELIZA effect](https://en.wikipedia.org/wiki/ELIZA_effect) describe how people tend to attribute human traits to intelligent systems that have a textual interface (typically with [LLMs](nlp.md)). Because of that, users empathise with AI system, from being polite to building friendship with.
+
+Related article
+- [ELIZA Effect](https://www.nngroup.com/articles/eliza-effect-ai/) - NNGroup
+- [4 degrees of anthropomorphism of Generative AI](https://www.nngroup.com/articles/anthropomorphism/) - NNGroup
+
 ## Resources
 
 ### Glossary
