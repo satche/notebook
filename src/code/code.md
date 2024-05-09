@@ -36,5 +36,12 @@ Here is a collection of page about programming languages, frameworks and other c
 
 ## Resources
 
+### Creative coding
+
+- [natureofcode.com](https://natureofcode.com/) – A free online book, by Daniel Shiffman
+- [emildziewanowski.com](https://emildziewanowski.com/) – Emil Dziewanowski, a Technical Artist
+
+### Fonts
+
 - [programmingfonts.org](https://www.programmingfonts.org) – A collection of font suited for coding
 
