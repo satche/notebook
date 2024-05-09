@@ -1,5 +1,5 @@
 ---
-aliases: [Classification]
+aliases: []
 ---
 
 # Classification
