@@ -24,7 +24,7 @@ $$F=ma=m\frac{dv}{dt}=\frac{dp}{dt}$$
 
 - Net force: $F$
 - Mass: $m$
-- Acceleration: $a=\frac{dv}{dt}$ (see: [derivative](Derivative.md))
+- Acceleration: $a=\frac{dv}{dt}$ (see: [derivatives](../algebra/derivatives.md))
 - Velocity: $v$
 - Momentum: $p=mv$
 - The momentum $p$ of an object is the product of its mass $m$ and velocity $v$
