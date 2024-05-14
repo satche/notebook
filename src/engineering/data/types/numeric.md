@@ -3,7 +3,7 @@ aliases: [Float, Integer]
 tags: [data/types]
 ---
 
-# Number
+# Numeric types
 
 ## Float
 

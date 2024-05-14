@@ -5,7 +5,9 @@ tags: []
 
 # Newton's method
 
-[Newton's method](https://wikipedia.org/wiki/newton%27s_method) is an algorithm to find the real zeros of a function with the derivative of the function to find its roots.
+[Newton's method](https://wikipedia.org/wiki/newton%27s_method) is an algorithm to find the real zeros of a function with the [derivatives](../../maths/algebra/derivatives.md) of the function to find its roots.
+
+![Newton's method representation](https://upload.wikimedia.org/wikipedia/commons/e/e0/NewtonIteration_Ani.gif)
 
 ## Algorithm
 

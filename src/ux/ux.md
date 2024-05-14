@@ -25,6 +25,7 @@ Fixing problems is hard, take time and cost a lot of money when they are impleme
 - [UX Checklist](https://uxchecklist.github.io/) – One big checklist for an UX project
 - [UX myths](https://uxmyths.com/) – Collection of myths around UX design
 - [The component gallery](https://component.gallery/) – Rules on design components; like buttons, popovers, etc.
+- [Research Methods Glossary](https://www.nngroup.com/articles/research-methods-glossary/) – NNGroup
 
 ### Tools
 
