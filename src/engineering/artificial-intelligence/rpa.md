@@ -13,3 +13,11 @@ tags: [artificial-intelligence]
 ## Examples and use cases
 
 - A RPA system can receive and analysis the content of a customer's mail with an AI agent. The mail is classified and attributed to an employee. A draft of the response is suggested with a third generative AI agent.
+
+## Resources
+
+### Common tools
+
+- [Microsoft Power Automate](https://en.wikipedia.org/wiki/Microsoft_Power_Automate) – Well integrated in Microsoft environment
+- [Automation Anywhere](https://en.wikipedia.org/wiki/Automation_Anywhere) – Low to medium complexity flows
+- [Blue Prism](https://en.wikipedia.org/wiki/Blue_Prism) – Robust, but more targeted for developer
