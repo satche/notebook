@@ -20,7 +20,7 @@ tags: [artificial-intelligence]
 
 ## What's "intelligence" ?
 
-There is no clear definition of what's intelligent and what's not. For example, what can we consider as intelligent in biological life ? Humans, animals, plants, unicellular organisms…? It's a bit the same for machines. Is a calculator intelligent compared to computers ?
+There is no clear definition of what's intelligent and what's not. For example, what can we consider as intelligent in biological life ? If humans are intelligent, what about, animals, plants or even unicellular organisms…? It's a bit the same for machines. Is a calculator intelligent compared to computers or complex programs ?
 
 There is many way to answer the question. A famous one is the [Turing test](https://en.wikipedia.org/wiki/Turing_test). If users interact with a program but think it's a human, it passes the test.
 
