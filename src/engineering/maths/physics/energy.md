@@ -1,4 +1,8 @@
-# Energy
+---
+tags: [math]
+---
+
+# Energy 
 
 [Energy](https://simple.wikipedia.org/wiki/Energy) is a property of matter and space.
 

@@ -1,6 +1,10 @@
+---
+tags: [math]
+---
+
 # Linear algebra
 
-[Linear algebra](https://simple.wikipedia.org/wiki/Linear_algebra) is a branch of mathematics that focus on trying to solve linear equations. It includes vectors and matrices.
+[Linear algebra](https://simple.wikipedia.org/wiki/Linear_algebra) is a branch of mathematics that focus on trying to solve linear equations. It includes vectors and matrices. 
 
 ## Resources
 

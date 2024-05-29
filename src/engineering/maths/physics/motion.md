@@ -1,6 +1,10 @@
+---
+tags: [math]
+---
+
 # Motion
 
-## Newton's laws
+## Newton's laws 
 
 The three [Newton's laws of motion](https://simple.wikipedia.org/wiki/Newton%27s_laws_of_motion):
 
@@ -24,7 +28,7 @@ $$F=ma=m\frac{dv}{dt}=\frac{dp}{dt}$$
 
 - Net force: $F$
 - Mass: $m$
-- Acceleration: $a=\frac{dv}{dt}$ (see: [derivatives](../algebra/derivatives.md))
+- Acceleration: $a=\frac{dv}{dt}$ (see: [derivative](../algebra/derivative.md))
 - Velocity: $v$
 - Momentum: $p=mv$
 - The momentum $p$ of an object is the product of its mass $m$ and velocity $v$

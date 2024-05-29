@@ -1,4 +1,8 @@
-# Vectors
+---
+tags: [math]
+---
+
+# Vectors 
 
 [Vector](https://simple.wikipedia.org/wiki/Vector): size and direction
 

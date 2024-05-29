@@ -1,6 +1,10 @@
-# Derivative
+---
+tags: [math]
+---
 
-[Derivative](https://simple.wikipedia.org/wiki/Derivative_(mathematics)) show the amount by which a function is changing at one given point.
+# Derivative 
+
+[Derivative](https://simple.wikipedia.org/wiki/Derivative_(mathematics)) show the amount by which a function is changing at one given point. It's particularly used to calculate the slope of a [function](function.md).
 
 The [partial derivative](https://simple.wikipedia.org/wiki/Partial_derivative) of a function is the of one named variable, where all the other ones are held constant.
 

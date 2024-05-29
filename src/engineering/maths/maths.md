@@ -1,4 +1,9 @@
-# Maths
+---
+tags:
+  - math
+---
+
+# Mathematics
 
 ## Resources
 
