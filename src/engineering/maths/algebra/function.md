@@ -4,7 +4,7 @@ tags: [math]
 
 # Function 
 
-A [function](https://simple.wikipedia.org/wiki/Function_(mathematics)) is a mathematical object that takes an input and produces an output (number, vector, etc).
+A [function](https://simple.wikipedia.org/wiki/Function_(mathematics)) is a [mathematical](../maths.md) object that takes an input and produces an output (number, vector, etc).
 
 ![List of functions](../assets/functions.png)
 
