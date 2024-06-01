@@ -1,5 +1,5 @@
 ---
-aliases: [automation]
+aliases: [Automation, RPA]
 tags: [artificial-intelligence]
 ---
 
