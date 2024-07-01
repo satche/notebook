@@ -23,4 +23,4 @@ Primitive values are still freed from memory, thanks to garbage collection
 https://en.wikipedia.org/wiki/List_of_data_structures#Data_types
 → Compositie data structures
 → Garbage collection: https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)
--→
+-->
