@@ -8,6 +8,7 @@ src/wip
 # Obsidian
 .obsidian
 .trash
+sortspec.md
 
 # NPM
 node_modules/
