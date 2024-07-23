@@ -14,8 +14,8 @@ const config: Config = {
   baseUrl: '/notebook/',
 
   organizationName: project.author,
-  projectName: `${project.author}.github.io`,
-  deploymentBranch: 'main',
+  projectName: project.name,
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
