@@ -4,6 +4,7 @@ src/wip
 # Obsidian
 .obsidian
 .trash
+sortspec.md
 
 # Dependencies
 /node_modules

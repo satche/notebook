@@ -4,7 +4,14 @@ sidebar_position: 1
 
 # Code
 
-Here is a collection of page about programming languages, frameworks and other coding tools. It's a mix between resources and cheatsheets.
+Here is a collection of notes about programming languages, frameworks and other coding tools.
+
+It's not meant to be a documentation nor a learning support (there's already plenty of that). Consider it a blend of resources and quick reference guides, meant to jog your memory.
+
+You will more like find:
+- An overview of the basics
+- Some tips, tricks and specific hacks
+- Resources, links and documentation
 
 ## Languages categories
 
@@ -14,14 +21,15 @@ Here is a collection of page about programming languages, frameworks and other c
 	- a set of instructions
 	- written in human-readable form
 	- *compiled* in machine-level language (assembly, binary, etc).
-- It's usually fast and efficient, but need to be compiled again for each code update.
-- **Analogy**: you need to bake a pizza from an italian recipe. Someone give you a translated version.
+- It's usually fast and efficient, but it need to be compiled each time a developer update the code.
+- **Analogy**: you need to bake a pizza from an italian recipe. Someone give you a translated version. If the recipe change, the interpreter needs to translate the new version before giving it to you.
 - **Examples**: Java, C, C++, C#
 
 #### Scripting languages
 
 - Scripting languages are *interpreted* instead of *compiled*
-- **Analogy**: you need to bake a pizza from an italian recipe. Someone sits next to you and give you the instructions.
+- It's simple and execution is in real-time, but it's usually slower and less efficient than programming languages.
+- **Analogy**: you need to bake a pizza from an italian recipe. Someone sits next to you and give you the instructions. The interpreters can adapt the recipe in real-time, but it's slower to tell you rather than you read it yourself.
 - **Examples**: Javascript, PHP, [Python](languages/python.md), Perl
 
 ### Markup languages
@@ -29,10 +37,22 @@ Here is a collection of page about programming languages, frameworks and other c
 - Markup languages are used to present and describe in a structural way.
 - Don't contain logics or algorithm.
 - Usually used in [web](../engineering/infrastructure/web/web.md).
-- **Analogy**: you just baked a pizza and need to write the menu.
-- **Examples**: HTML, CSS, XML
+- **Analogy**: the pizza is already baked, you just need to write the menu.
+- **Examples**: HTML, [CSS](languages/css.md), XML
 
 ## Resources
+
+### Docs
+
+- [devdocs.io](https://devdocs.io) – Collection of documentations
+- [devhints.io](https://devhints.io/) – Collection of cheatsheets
+- [free-for.dev](https://free-for.dev) – Collection of free stuff
+- [roadmap.sh](https://roadmap.sh/) – Collection of roadmaps
+
+### Research & Analysis
+
+- [ossinsight.io](https://ossinsight.io) – Insights on repos and Github events
+- [grep.app](https://grep.app) – Search code across repos
 
 ### Creative coding
 

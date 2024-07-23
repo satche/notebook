@@ -5,6 +5,18 @@ tags: []
 
 # Python
 
+<!--
+In Python, everything is a first-class object!
+
+```python
+a = 1
+print(type(a)) # <class 'int'>
+```
+
+[[Object-oriented#Object copying]]
+→ QUOTE: In a language without primitive types (where everything is an object), all fields of the copy reference the same objects as the fields of the original. 
+-->
+
 ## Resources
 
 ### Learning
