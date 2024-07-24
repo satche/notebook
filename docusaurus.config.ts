@@ -60,30 +60,10 @@ const config: Config = {
       //   src: 'img/logo.svg',
       // },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'codeSidebar',
-          position: 'left',
-          label: 'Code',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'engineeringSidebar',
-          position: 'left',
-          label: 'Engineering',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'managementSidebar',
-          position: 'left',
-          label: 'Management',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'uxSidebar',
-          position: 'left',
-          label: 'UX',
-        },
+        { to: 'code', label: 'Code' },
+        { to: 'engineering', label: 'Engineering' },
+        { to: 'management', label: 'Management' },
+        { to: 'ux', label: 'UX' },
         {
           href: `https://github.com/${project.author}/${project.name}`,
           label: 'GitHub',

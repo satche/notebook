@@ -9,14 +9,7 @@
 	--ifm-code-font-size: 95%;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-	--ifm-font-family-base: 'Helvetica', monospace;
-	--ifm-heading-font-family: 'Helvetica', monospace;
-	--ifm-font-family-monospace: 'Roboto Mono', monospace;
-
-	--doc-sidebar-width: 200px;
-	--doc-sidebar-hidden-width: 20px;
 	--ifm-menu-link-sublist-icon: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTUuODQgMTUuNDFsNS42Ni01LjY2bDUuNjYgNS42NmwtLjcxLjdsLTQuOTUtNC45NWwtNC45NSA0Ljk1eiIvPjwvc3ZnPg==');
-
 }
 
 [data-theme='dark'] {

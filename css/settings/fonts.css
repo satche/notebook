@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+	--ifm-font-family-base: 'Inter', sans-serif;
+	--ifm-heading-font-family: 'Inter', monospace;
+	--ifm-font-family-monospace: 'Roboto Mono', monospace;
+}
+
+.markdown {
+	& h1:first-child {
+		--ifm-h1-font-size: 2.2rem;
+		font-size: var(--ifm-h1-font-size);
+	}
+
+	&>h2 {
+		--ifm-h2-font-size: 1.6rem;
+		font-size: var(--ifm-h2-font-size);
+		margin-top: 0.9rem;
+	}
+
+	&>h3 {
+		--ifm-h3-font-size: 1.3rem;
+		font-size: var(--ifm-h3-font-size);
+		margin-top: 0.8rem;
+	}
+}
