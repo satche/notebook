@@ -5,7 +5,7 @@ A collection of personal notes about engineering, computer science and other stu
 ### Installation
 
 ```
-$ npm
+$ npm install
 ```
 
 ### Local Development
