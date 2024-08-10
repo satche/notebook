@@ -5,7 +5,7 @@ tags: [artificial-intelligence]
 
 # Natural Language Processing
 
-[Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) (NLP) is a field in [Machine Learning](artificial-intelligence.md) giving computers the ability to support and manipulate human language.
+[Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) (NLP) is a field in [Machine Learning](../artificial-intelligence.md) giving computers the ability to support and manipulate human language.
 
 ## Retrieval-augmented generation
 

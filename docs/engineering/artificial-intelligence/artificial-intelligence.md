@@ -2,6 +2,7 @@
 aliases: [Machine Learning]
 tags: [artificial-intelligence]
 ---
+
 <!-- TODO
 - Clustering
 	- K-mean
@@ -12,6 +13,7 @@ tags: [artificial-intelligence]
 - AlphaFold
 	- AlphaFold 2 (Nov 2020) predicts the 3D structure of a protein from an amino acid sequence using reinforcement learning. DeepMind developed this solution in four years, by adapting AlphaGo, the algorithm that defeated the best human player of Go in 2016
 	- DeepMind has published about 200 million protein 3D structure predictions since then. Before that, there were about 100’000 known 3D structures as the result of 50 years of research
+- Mention: https://en.wikipedia.org/wiki/Dead_Internet_theory
 -->
 
 # Artificial Intelligence
@@ -26,7 +28,7 @@ There is many way to answer the question. A famous one is the [Turing test](http
 
 ## ELIZA Effect
 
-The [ELIZA effect](https://en.wikipedia.org/wiki/ELIZA_effect) describe how people tend to attribute human traits to intelligent systems that have a textual interface (typically with [LLMs](nlp.md)). Because of that, users empathise with AI system, from being polite to building friendship with.
+The [ELIZA effect](https://en.wikipedia.org/wiki/ELIZA_effect) describe how people tend to attribute human traits to intelligent systems that have a textual interface (typically with [LLMs](nlp/nlp.md)). Because of that, users empathise with AI system, from being polite to building friendship with.
 
 Related article
 - [ELIZA Effect](https://www.nngroup.com/articles/eliza-effect-ai/) - NNGroup
@@ -39,6 +41,7 @@ Related article
 - *MLM* – Machine Learning Model
 - *ML Facilities* – Resources used to train a model
 - *ML Inference* – Using a trained model on data
+- [AI Glossary](https://www.nngroup.com/articles/artificial-intelligence-glossary/) – NNGroup
 
 ### Tools
 
@@ -53,3 +56,9 @@ Related article
 - [ml-cheatsheet.readthedocs.io](https://ml-cheatsheet.readthedocs.io)– A good cheatsheet on core concept in ML
 - [neuralnetworksanddeeplearning.com](https://neuralnetworksanddeeplearning.com) – Free online book, by [Michael Nielsen](http://michaelnielsen.org)
 - [ig.ft.com/generative-ai](https://ig.ft.com/generative-ai/) – Illustrated overview on how LLM work
+- [physicsbaseddeeplearning.org](https://physicsbaseddeeplearning.org) – Book about physical simulations in Deep Learning
+- [interdb.jp/dl](https://www.interdb.jp/dl/) – The Engineer’s Guide To Deep Learning by Hironobu Suzuki
+
+%%
+- https://github.com/robert/hello-deep-learning
+%%
