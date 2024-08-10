@@ -54,12 +54,10 @@ You will more like find:
 - [ossinsight.io](https://ossinsight.io) – Insights on repos and Github events
 - [grep.app](https://grep.app) – Search code across repos
 
-### Creative coding
-
-- [natureofcode.com](https://natureofcode.com/) – A free online book, by Daniel Shiffman
-- [emildziewanowski.com](https://emildziewanowski.com/) – Emil Dziewanowski, a Technical Artist
-
 ### Fonts
 
 - [programmingfonts.org](https://www.programmingfonts.org) – A collection of font suited for coding
 
+## Learn
+
+- [Crafting Interpreters](https://craftinginterpreters.com/contents.html) by [Bob Nystrom](https://journal.stuffwithstuff.com/) – Online book to create your own scripting language
