@@ -4,13 +4,12 @@ tags: [math]
 
 # Function 
 
-A [function](https://simple.wikipedia.org/wiki/Function_(mathematics)) is a [mathematical](../maths.md) object that takes an input and produces an output (number, vector, etc).
+A [function](https://en.wikipedia.org/wiki/Function_(mathematics)) is a [mathematical](../maths.md) object that takes an input and produces an output (number, vector, etc).
 
 ![List of functions](../assets/functions.png)
 
-%%
-Function hyperboliques: sinus, cosinus, tangente
-%%
+
+[Hyperbolic functions](https://en.wikipedia.org/wiki/Hyperbolic_functions) are sinus, cosinus, tangente
 
 ## Notation
 

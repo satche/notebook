@@ -59,6 +59,7 @@ Related article
 - [physicsbaseddeeplearning.org](https://physicsbaseddeeplearning.org) – Book about physical simulations in Deep Learning
 - [interdb.jp/dl](https://www.interdb.jp/dl/) – The Engineer’s Guide To Deep Learning by Hironobu Suzuki
 
-%%
+
+<!-- HELLO WORLD DEEP LEARNING
 - https://github.com/robert/hello-deep-learning
-%%
+- -->
