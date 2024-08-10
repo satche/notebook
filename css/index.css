@@ -8,3 +8,8 @@
 	--doc-sidebar-width: 200px;
 	--doc-sidebar-hidden-width: 20px;
 }
+
+article {
+	max-width: 680px;
+	margin: 0 auto;
+}
