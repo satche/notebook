@@ -8,6 +8,10 @@ A [function](https://simple.wikipedia.org/wiki/Function_(mathematics)) is a [mat
 
 ![List of functions](../assets/functions.png)
 
+%%
+Function hyperboliques: sinus, cosinus, tangente
+%%
+
 ## Notation
 
 $$f: X^n \to Y$$

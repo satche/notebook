@@ -1,6 +1,5 @@
 ---
-tags:
-  - math
+tags: [math]
 ---
 
 # Mathematics
@@ -10,6 +9,11 @@ tags:
 - [oeis.org](https://oeis.org/) – The On-Line Encyclopedia of Integer Sequences
 
 <!--
+TODO:
+Vocabulary:
+- calcul intégral
+- équations différentielles
+
 STUFF TO SORT
 - https://betterexplained.com/articles/an-intuitive-guide-to-exponential-functions-e/
 - https://www.quora.com/How-does-the-formula-n-n-1-2n-1-6-come?share=1
