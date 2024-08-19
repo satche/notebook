@@ -1,0 +1,5 @@
+#app {
+	& nav.prev-next {
+		display: none;
+	}
+}
