@@ -1,5 +1,5 @@
 import { description, repository } from "../package.json";
-import { generateSidebar } from "./vitepress-sidebar";
+import { generateSidebar } from "vitepress-sidebar";
 import imageFigures from "markdown-it-image-figures";
 
 const repoUrl = repository.url.replace(".git", "");

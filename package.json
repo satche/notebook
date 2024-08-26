@@ -1,6 +1,6 @@
 {
   "name": "notebook",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A notebook about engineering, computer science and other stuff",
   "author": "Satche",
   "license": "MIT",
@@ -11,6 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev",
+    "prod": "npm run build && npm run preview",
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
