@@ -4,6 +4,7 @@ tags: [artificial-intelligence]
 ---
 
 <!-- TODO
+- Change AI for ML → because AI is too large (?) e.g. ai in video games
 - Clustering
 	- K-mean
 	- DBSCAN
