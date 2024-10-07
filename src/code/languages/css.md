@@ -36,7 +36,7 @@ You can use[`color-scheme`](https://devdocs.io/css/color-scheme) and [`light-dar
 ```
 
 > [!INFO]
-> You can switch between themes with @matchMedia
+> You can switch between themes with `@matchMedia`
 
 ```javascript
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -52,5 +52,6 @@ Read more: [`@matchMedia`](https://devdocs.io/dom/window/matchmedia)
 
 ## Resources
 
+- [postcss.org](https://postcss.org/) – Tool to lint and enable extra features to CSS
 - [cssdb.org](https://cssdb.org) – A list of current and potential future CSS features
-- [projectwallace.com](https://www.projectwallace.com/) – CSS analyzer
+- [projectwallace.com](https://www.projectwallace.com/) – CSS analyser
