@@ -19,6 +19,7 @@ We usually measure the performance of an algorithm by its [time complexity](comp
 
 ## Resources
 
+- [the-algorithms.com](https://the-algorithms.com/) – Large library of algorithms
 - [List of algorithms](https://wikipedia.org/wiki/list_of_algorithms) – Wikipedia
 - [Algorithm and data structure visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) – David Galles
 - [Michael Sambol](https://www.youtube.com/@MichaelSambol) – Youtube Channel
