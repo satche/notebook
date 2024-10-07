@@ -1,5 +1,9 @@
 ---
-aliases: [riro, rubbish in, rubbish out]
+aliases:
+  - riro
+  - rubbish in
+  - rubbish out
+  - gigo
 ---
 
 # Garbage In, Garbage Out

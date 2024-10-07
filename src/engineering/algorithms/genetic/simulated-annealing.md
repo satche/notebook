@@ -1,5 +1,4 @@
 ---
-aliases: []
 tags: [algorithm, algorithm/metaheuristic]
 ---
 
