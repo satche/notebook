@@ -40,6 +40,9 @@ You will more like find:
 - **Analogy**: the pizza is already baked, you just need to write the menu.
 - **Examples**: HTML, [CSS](languages/css.md), XML
 
+> [!NOTE]
+> Compared to programming/scripting language, markup languages are *not* [Turing-complete](../engineering/infrastructure/turing-machine.md#Turing-complete).
+
 ## Resources
 
 ### Docs
@@ -58,6 +61,6 @@ You will more like find:
 
 - [programmingfonts.org](https://www.programmingfonts.org) – A collection of font suited for coding
 
-## Learn
+### Learn
 
 - [Crafting Interpreters](https://craftinginterpreters.com/contents.html) by [Bob Nystrom](https://journal.stuffwithstuff.com/) – Online book to create your own scripting language
