@@ -29,4 +29,4 @@ See: [Access Management (IAM)](iam.md#access-management)
 
 Prevent the system to stop working
 
-Read more on the [Availability](../architecture/quality-attributes/availability.md) quality attribute page.
+Read more on the [Availability](availability.md) quality attribute page.
