@@ -4,12 +4,6 @@ tags: [machine-learning]
 ---
 
 <!-- TODO
-- Clustering
-	- K-mean
-	- DBSCAN
-- Classification
-	- Support Vector Machine (SVM)
-	- Bayesian classifier
 
 # **Learning Paradigms and Approaches**
 
@@ -22,9 +16,14 @@ tags: [machine-learning]
 # **Prediction and Analysis Tasks**
 
 - Classification
+	- Support Vector Machine (SVM)
+	- Bayesian classifier
 - Regression
 - Forecasting (e.g., time-series analysis)
 - Anomaly Detection
+- Clustering
+	- K-mean
+	- DBSCAN
 
 # **Model Types and Architectures**
 
