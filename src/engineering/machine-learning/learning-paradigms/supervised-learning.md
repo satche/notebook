@@ -1,10 +1,10 @@
 ---
-tags: [artificial-intelligence]
+tags: [machine-learning]
 ---
 
 # Supervised Learning
 
-[Supervised Learning](https://wikipedia.org/wiki/supervised_learning) is a paradigm in [Machine Learning](../artificial-intelligence.md), where we train the computer to predict an output based on the input data. The dataset contains both *features* and *targets*, provided by a human.
+[Supervised Learning](https://wikipedia.org/wiki/supervised_learning) is a paradigm in [Machine Learning](../machine-learning.md), where we train the computer to predict an output based on the input data. The dataset contains both *features* and *targets*, provided by a human.
 
 ## Notation
 

@@ -1,6 +1,6 @@
 ---
 aliases: [Automation, RPA]
-tags: [artificial-intelligence]
+tags: [machine-learning]
 ---
 
 # Robotic Process Automation
