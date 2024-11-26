@@ -1,7 +1,8 @@
-
 # Data
 
-## Data sources
+## Resources
+
+### Data sources
 
 - [User Generated Content](https://wikipedia.org/wiki/user-generated_content) (UGC)
 - [Crowdsourcing](https://wikipedia.org/wiki/crowdsourcing)
