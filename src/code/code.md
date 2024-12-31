@@ -36,7 +36,7 @@ You will more like find:
 
 - Markup languages are used to present and describe in a structural way.
 - Don't contain logics or algorithm.
-- Usually used in [web](../engineering/infrastructure/web/web.md).
+- Usually used in [web](web.md).
 - **Analogy**: the pizza is already baked, you just need to write the menu.
 - **Examples**: HTML, [CSS](languages/css.md), XML
 
