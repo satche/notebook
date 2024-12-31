@@ -40,7 +40,7 @@ You can use[`color-scheme`](https://devdocs.io/css/color-scheme) and [`light-dar
 
 ```javascript
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    // …
+// …
 
 // Watch for change
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
@@ -49,6 +49,26 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', eve
 ```
 
 Read more: [`@matchMedia`](https://devdocs.io/dom/window/matchmedia)
+
+## Scroll
+
+The [scroll-snap](https://devdocs.io/css/css_scroll_snap) properties allows to align ("snap") the scroll on certain elements within HTML containers.
+
+```css
+.container {
+    scroll-snap-type: y mandatory;
+    scroll-padding: 50px;
+    scroll-margin: 50px;
+}
+
+.container .section {
+    scroll-snap-align: start;
+}
+```
+
+- [`scroll-snap-type`](https://devdocs.io/css/scroll-snap-type)'s first parameter is the axis. Second one can be `mandatory` (always snap to sections) or `proximity` (snap if close to the section).
+- [`scroll-margin`](https://devdocs.io/css/scroll-margin) and [`scroll-padding`](https://devdocs.io/css/scroll-padding) define offsets of section's align point.
+- [`scroll-snap-align`](https://devdocs.io/css/scroll-snap-align) can be at the `start` or at the `end` of the section.
 
 ## Resources
 
