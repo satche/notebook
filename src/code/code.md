@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Code
 
 Here is a collection of notes about programming languages, frameworks and other coding tools.
@@ -36,9 +32,9 @@ You will more like find:
 
 - Markup languages are used to present and describe in a structural way.
 - Don't contain logics or algorithm.
-- Usually used in [web](web.md).
+- Usually used in [web](../engineering/web/web.md).
 - **Analogy**: the pizza is already baked, you just need to write the menu.
-- **Examples**: HTML, [CSS](languages/css.md), XML
+- **Examples**: HTML, [CSS](languages/css.md),XML
 
 > [!NOTE]
 > Compared to programming/scripting language, markup languages are *not* [Turing-complete](../engineering/infrastructure/turing-machine.md#Turing-complete).
