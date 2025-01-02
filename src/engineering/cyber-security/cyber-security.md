@@ -15,5 +15,5 @@ This chapter is split into 3 categories:
 
 ## Resources
 
-- [NIST Glossary](https://csrc.nist.gov/glossary)
-
+- [csrc.nist.gov/glossary](https://csrc.nist.gov/glossary) – NIST Glossary
+- [digital-defense.io](https://digital-defense.io/) – Personal Security Checklist
