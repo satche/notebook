@@ -1,5 +1,5 @@
 ---
-aliases: []
+tags: [machine-learning, machine-learning/supervised-learning]
 ---
 
 # Classification

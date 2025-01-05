@@ -1,5 +1,7 @@
 ---
-tags: [machine-learning/unsupervised-learning]
+tags:
+  - machine-learning/unsupervised-learning
+  - machine-learning
 ---
 
 # Unsupervised Learning

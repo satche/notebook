@@ -1,6 +1,8 @@
 ---
-aliases: [Artificial Intelligence]
-tags: [machine-learning]
+aliases:
+  - Artificial Intelligence
+tags:
+  - machine-learning
 ---
 
 <!-- TODO
@@ -38,7 +40,7 @@ tags: [machine-learning]
 - Recurrent Neural Networks (RNNs)
 - Transformers (e.g., BERT, GPT)
 - Autoencoders
-- Generative Models (e.g., GANs, VAEs)
+- Generative Models (e.g., VAEs)
 - Transfer Learning
 
 # **AI Applications**
@@ -61,7 +63,9 @@ tags: [machine-learning]
 
 [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) is the ability of a program or machine to think and learn by itself.
 
-## Artificial Intelligence
+## Definitions
+
+### Artificial Intelligence
 
 Machine Learning is used as a synonym of [Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence), but it is actually a subset of the latter. AI define a broader scope, where systems can simulate human intelligence without relaying on Machine Learning (e.g. chat agents, video game bots, …).
 
@@ -72,7 +76,9 @@ The definition of AI is so large that we tend to classify it into sub-categories
 | [Narrow AI](https://en.wikipedia.org/wiki/Weak_artificial_intelligence)                                                   | -       | Limited to specific tasks (e.g. translation, facial recognition, etc.). |
 | [Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)                          | AGI     | Applied to any problems, matching human cognitive capabilities          |
 | [Artificial superintelligence](https://en.wikipedia.org/wiki/Artificial_superintelligence "Artificial superintelligence") | ASI     | Cognitive applications superior to human being                          |
+### Deep learning
 
+[Deep learning](https://en.wikipedia.org/wiki/Deep_learning) is a subset of machine learning focused on the use of [neural networks](architectures/neural-network/neural-network.md). 
 ### Key events
 
 - **1949**: Alan Turing already created the [Turing test](https://en.wikipedia.org/wiki/Turing_test) to evaluate a system's intelligence by having a user interact with it. If the user believes they are communicating with a human, the system passes the test.

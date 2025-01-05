@@ -1,9 +1,11 @@
 ---
-aliases: [Regression]
+tags: [machine-learning, machine-learning/supervised-learning]
 ---
 
 # Regression
 
-[Regression](https://wikipedia.org/wiki/regression_analysis) is a supervised algorithm which map inputs to an **infinite set of continuous outputs.** It allows to to find correlations between data, do predictions and even classification.
+[Regression](https://wikipedia.org/wiki/regression_analysis) is a finding relationships (i.e. correlations) between a **dependant variable** (i.e. input, label) and **independent variables** (i.e. output, feature).
 
-For example, predict the price of an apartment based on the surface and the number of rooms.
+It's used for predictive and [classification](classification.md) tasks. For example, predict the price of an apartment based on the surface and the number of rooms.
+
+It usually fall under [supervised learning](../learning-paradigms/supervised-learning.md).

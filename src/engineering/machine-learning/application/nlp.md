@@ -1,6 +1,9 @@
 ---
-aliases: [Large Language Model, LLM]
-tags: [machine-learning]
+aliases:
+  - Large Language Model
+  - LLM
+tags:
+  - machine-learning
 ---
 
 # Natural Language Processing
