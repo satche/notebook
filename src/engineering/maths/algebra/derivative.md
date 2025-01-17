@@ -55,5 +55,5 @@ The [partial derivative](https://simple.wikipedia.org/wiki/Partial_derivative) o
 
 When a matrix is composed of derivatives, it called:
 
-- [Jacobian-Matrix](vectors.md#Matrix), for first-order derivatives
-- [Hessian matrix](vectors.md#Matrix), for second-order derivatives
+- [Jacobian-Matrix](/engineering/maths/algebra/tensor/vector.md#Matrix), for first-order derivatives
+- [Hessian matrix](/engineering/maths/algebra/tensor/vector.md#Matrix), for second-order derivatives
