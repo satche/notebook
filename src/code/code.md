@@ -1,14 +1,5 @@
 # Code
 
-Here is a collection of notes about programming languages, frameworks and other coding tools.
-
-It's not meant to be a documentation nor a learning support (there's already plenty of that). Consider it a blend of resources and quick reference guides, meant to jog your memory.
-
-You will more like find:
-- An overview of the basics
-- Some tips, tricks and specific hacks
-- Resources, links and documentation
-
 ## Languages categories
 
 ### Programming languages

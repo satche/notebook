@@ -15,7 +15,7 @@ print(type(a)) # <class 'int'>
 
 `lambda` → anonymous function
 
-[[Object-oriented#Object copying]]
+[](/engineering/architecture/paradigms/object-oriented.md#Object%20copying)
 → QUOTE: In a language without primitive types (where everything is an object), all fields of the copy reference the same objects as the fields of the original. 
 -->
 
