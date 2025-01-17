@@ -1,16 +1,15 @@
 ---
-tags:
-  - machine-learning
-  - ""
+aliases: [GAN]
+tags: [machine-learning, machine-learning/neural-network]
 ---
 
 # Generative Adversarial Network 
 
-![Example of GAN](../../assets/gan.jpg)
+![gan](/engineering/machine-learning/assets/gan.jpg)
 
 In a [Generative Adversarial Network](https://en.wikipedia.org/wiki/Generative_adversarial_network) (GAN), 2 neural networks compete with each other.
 
-The [generator](https://en.wikipedia.org/wiki/Generative_model) will attempt to create a synthetic output (e.g. an image) from random noise. The [discriminator](https://en.wikipedia.org/wiki/Discriminative_model) compare the result with a real dataset (usually [unsupervised](../../learning-paradigms/unsupervised-learning.md)) and try to determine the fake result.
+The [generator](https://en.wikipedia.org/wiki/Generative_model) will attempt to create a synthetic output (e.g. an image) from random noise. The [discriminator](https://en.wikipedia.org/wiki/Discriminative_model) compare the result with a real dataset (usually [unsupervised](/engineering/machine-learning/learning-paradigms/unsupervised-learning.md)) and try to determine the fake result.
 
 Backpropagation process apply on both models so they can improve: the generator create better samples, the discriminator become better at finding them.
 

@@ -1,5 +1,7 @@
 ---
-tags: [machine-learning, machine-learning/supervised-learning]
+tags:
+  - machine-learning
+  - machine-learning/supervised-learning
 ---
 
 # Classification

@@ -1,7 +1,6 @@
 ---
 aliases:
-  - Large Language Model
-  - LLM
+  - NLP
 tags:
   - machine-learning
 ---

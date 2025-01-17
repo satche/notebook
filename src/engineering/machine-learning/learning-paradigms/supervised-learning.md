@@ -32,3 +32,9 @@ Dataset $S$, composed of 4 samples
 - Feature $x_1$ → Surface
 - Feature $x_2$ → Nbr. of rooms
 - Target $y_1$ → Price / month
+
+## Architectures
+
+### Decision Tree
+
+[Decision tree](https://wikipedia.org/wiki/decision_tree_learning) is a supervised learning approach, which can be used in [classification](../tasks/classification.md) or [regression](../tasks/regression.md) tasks.

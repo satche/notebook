@@ -56,7 +56,7 @@ print(list2) # [1,[20,3]]
 <!--
 QUOTE: In a language without primitive types (where everything is an object), all fields of the copy reference the same objects as the fields of the original. 
 
-EXAMPLE: [[python]]
+EXAMPLE: [python](code/languages/python.md)
 -->
 
 ### Deep copy

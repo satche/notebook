@@ -49,6 +49,8 @@ For example, in a [service-oriented](service-oriented.md) architecture, web serv
 	- Nested: `GET Nested: GET /api/posts/10/comments`
 	- Flat: `GET /api/comments?postID=10``
 
+<!-- 
+
 ### SOAP
 
 (WIP)
@@ -56,6 +58,7 @@ For example, in a [service-oriented](service-oriented.md) architecture, web serv
 ### RPC
 
 (WIP)
+ -->
 
 ## Resources
 

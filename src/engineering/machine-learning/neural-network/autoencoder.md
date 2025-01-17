@@ -1,13 +1,10 @@
 ---
-tags:
-  - machine-learning
-  - machine-learning/unsupervised-learning
-  - ""
+tags: ["", machine-learning, machine-learning/neural-network, machine-learning/unsupervised-lear]
 ---
 
 # Autoencoder 
 
-[Autoencoder](https://en.wikipedia.org/wiki/Autoencoder) is a [neural network](neural-network.md) mainly used to discover and learn features from [unlabeled data](../../learning-paradigms/unsupervised-learning.md).
+[Autoencoder](https://en.wikipedia.org/wiki/Autoencoder) is a [neural network](/engineering/machine-learning/neural-network/neural-network.md) mainly used to discover and learn features from [unlabeled data](/engineering/machine-learning/learning-paradigms/unsupervised-learning.md).
 
 An autoencoder has two main part:
 - **Encoder**: compress input data into a *latent space* 
@@ -25,9 +22,8 @@ The goal is to minimise (with a loss function) the difference between the input 
 
 ### VAE
 
-A [Variational autoencoder](https://en.wikipedia.org/wiki/Variational_autoencoder) (VAE) is a [generative](../../application/generative-ai.md) model. Unlike basic autoencoders, the latent space is composed of a mixture of distributions instead of fixed vectors.
+A Variational autoencoder model. Unlike basic autoencoders, the latent space is composed of a mixture of distributions instead of fixed vectors.
 
 The outputs are probabilistic, unlike traditional autoencoders, which produce deterministic reconstructions of the input. This characteristic enables the generation of diverse samples and provides control over the outputs by manipulating the parameters of the latent distribution.
 
-
-![vae](../../assets/vae.png)
+![vae](/engineering/machine-learning/assets/vae.png)

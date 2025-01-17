@@ -1,5 +1,6 @@
 ---
-tags: [machine-learning]
+tags:
+  - machine-learning
 ---
 
 # Computer Vision

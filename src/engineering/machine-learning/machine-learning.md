@@ -1,8 +1,6 @@
 ---
-aliases:
-  - Artificial Intelligence
-tags:
-  - machine-learning
+aliases: [Artificial Intelligence]
+tags: [machine-learning]
 ---
 
 <!-- TODO
@@ -76,9 +74,13 @@ The definition of AI is so large that we tend to classify it into sub-categories
 | [Narrow AI](https://en.wikipedia.org/wiki/Weak_artificial_intelligence)                                                   | -       | Limited to specific tasks (e.g. translation, facial recognition, etc.). |
 | [Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)                          | AGI     | Applied to any problems, matching human cognitive capabilities          |
 | [Artificial superintelligence](https://en.wikipedia.org/wiki/Artificial_superintelligence "Artificial superintelligence") | ASI     | Cognitive applications superior to human being                          |
+**Related**:
+- [arcprize.org](https://arcprize.org/) – Abstraction and Reasoning Corpus for Artificial General Intelligence (ARC-AGI)
+
 ### Deep learning
 
-[Deep learning](https://en.wikipedia.org/wiki/Deep_learning) is a subset of machine learning focused on the use of [neural networks](architectures/neural-network/neural-network.md). 
+[Deep learning](https://en.wikipedia.org/wiki/Deep_learning) is a subset of machine learning focused on the use of [neural network](/engineering/machine-learning/neural-network/neural-network.md). 
+
 ### Key events
 
 - **1949**: Alan Turing already created the [Turing test](https://en.wikipedia.org/wiki/Turing_test) to evaluate a system's intelligence by having a user interact with it. If the user believes they are communicating with a human, the system passes the test.
@@ -88,7 +90,7 @@ The definition of AI is so large that we tend to classify it into sub-categories
 
 ## Related topics
 
-- The [ELIZA effect](https://en.wikipedia.org/wiki/ELIZA_effect) describe how people tend to attribute human traits to intelligent systems that have a textual interface (typically with [LLMs](application/nlp.md)). Because of that, users empathise with AI system, from being polite to building friendship with.
+- The [ELIZA effect](https://en.wikipedia.org/wiki/ELIZA_effect) describe how people tend to attribute human traits to intelligent systems that have a textual interface (typically with [LLMs](/engineering/machine-learning/neural-network/llm.md)). Because of that, users empathise with AI system, from being polite to building friendship with.
 - The [dead Internet theory](https://en.wikipedia.org/wiki/Dead_Internet_theory) is a conspiracy theory that state that the web (social media in particular) mainly consist of bots 
 
 ## Resources
@@ -115,8 +117,5 @@ The definition of AI is so large that we tend to classify it into sub-categories
 - [ig.ft.com/generative-ai](https://ig.ft.com/generative-ai/) – Illustrated overview on how LLM work
 - [physicsbaseddeeplearning.org](https://physicsbaseddeeplearning.org) – Book about physical simulations in Deep Learning
 - [interdb.jp/dl](https://www.interdb.jp/dl/) – The Engineer’s Guide To Deep Learning by Hironobu Suzuki
-
-
-<!-- HELLO WORLD DEEP LEARNING
-- https://github.com/robert/hello-deep-learning
-- -->
+- [paperswithcode.com](https://paperswithcode.com/) – Machine Learning papers with code and datasets
+- [github.com/robert/hello-deep-learning](https://github.com/robert/hello-deep-learning) – Basic deep learning exercices
