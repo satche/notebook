@@ -19,6 +19,16 @@ print(type(a)) # <class 'int'>
 → QUOTE: In a language without primitive types (where everything is an object), all fields of the copy reference the same objects as the fields of the original. 
 -->
 
+## Naming and conventions
+
+| Nom       | Description                                                                        |
+| --------- | ---------------------------------------------------------------------------------- |
+| `_foo`    | Variable/method is [private](/code/glossary/access_modifier.md)                    |
+| `foo_`    | Avoid naming conflict with [reserved keywords](/code/glossary/reserved_keyword.md) |
+| `__foo`   | Name mangling: will add the class name as prefix → `_ClassName__foo`               |
+| `__foo__` | Special attribute/method provided by Python                                        |
+| `_`       | Temporary/throaway variable                                                        |
+
 ## Resources
 
 ### Learning
