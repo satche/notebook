@@ -12,7 +12,7 @@ In [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning
 
 We can illustrate the [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) problem as following.
 
-Amodel is faced with a series of slot machines (one-armed bandit), each with an unknown probability distribution of rewards. The goal is to maximize cumulative rewards over time by balancing two strategies:
+A model is faced with a series of slot machines (one-armed bandit), each with an unknown probability distribution of rewards. The goal is to maximize cumulative rewards over time by balancing two strategies:
 
 1. **Exploration**: The model tries different slot machines to gather information and estimate their respective reward distributions, aiming to discover which machine offers the highest payoff.
 2. **Exploitation**: The model focuses on the slot machine that is currently believed to provide the highest expected reward, based on the information it has gathered so far, in order to maximize its immediate gains.
