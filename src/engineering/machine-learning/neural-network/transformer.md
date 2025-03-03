@@ -5,7 +5,7 @@ tags: [machine-learning, machine-learning/neural-network]
 
 # Transformer 
 
-[Transformer](https://en.wikipedia.org/wiki/Transformer) are [deep learning](deep learning.md) architectures mainly used for [NLP](/engineering/machine-learning/applications/nlp.md), [LLMs](/engineering/machine-learning/neural-network/llm.md) and other [generative AI](generative AI.md) tasks (e.g. image, sound, etc).
+[Transformer](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)) are [deep learning](deep learning.md) architectures mainly used for [NLP](/engineering/machine-learning/applications/nlp.md), [LLMs](/engineering/machine-learning/neural-network/llm.md) and other [generative AI](generative AI.md) tasks (e.g. image, sound, etc).
 
 ## How does it work
 
