@@ -8,4 +8,4 @@ tags: [algorithm, algorithm/metaheuristic]
 
 A temperature parameter is set, which determines the probability of accepting a worse solution. This probability decreases over time: as the iterations progress, it becomes less likely to accept inferior solutions.
 
-![Animated example of simulated annealing](../assets/simulated-annealing.gif)
+![Animated example of simulated annealing](/assets/simulated-annealing.gif)

@@ -1,5 +1,5 @@
 ---
-aliases: [Big O notation, Time complexity, P complexity, NP complexity]
+aliases: [Big O notation, NP complexity, P complexity, Time complexity]
 ---
 
 # Time complexity
@@ -38,7 +38,7 @@ The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an alg
 | $O(2^n)$ | [exponential](https://en.wikipedia.org/wiki/Exponential_time) | (to complete) |
 | $O(n!)$ | [factorial](https://wikipedia.org/wiki/factorial "factorial") | (to complete) |
 
-![A graphical plot of time complexity comparison](assets/complexity-comparison-plot.png)
+![A graphical plot of time complexity comparison](/assets/complexity-comparison-plot.png)
 
 Keep in mind notation can have more than one type of input. Two different lists could involve a $O(n+m)$ type of complexity, or $O(n\times m)$ if they depend on each other. We typically use notation like $O(|V|+|E|)$ in [graphs](graph/graph.md), where the number of vertices and edges can influence the performances.
 

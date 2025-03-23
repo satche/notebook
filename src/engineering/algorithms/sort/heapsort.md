@@ -10,7 +10,7 @@ The [heapsort](https://en.wikipedia.org/wiki/Heapsort) is a sorting algorithm us
 2. Takes the largest element from the unsorted region and inserts it into the sorted region.
 3. The unsorted region is kept as a heap, which allows finding the largest element quickly.
 
-![Heapsort animated example](../assets/heapsort.gif)
+![Heapsort animated example](/assets/heapsort.gif)
 
 ## Complexity
 

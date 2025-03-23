@@ -6,7 +6,7 @@ tags: [ux, glossary]
 
 [Skeumorphism](https://en.wikipedia.org/wiki/Skeuomorph) is a design trends that tend to imitates real-life object in interface or other object, usually to suggest their function and how to interact with.
 
-![Skeumorphism in user interface example](assets/skeumorphism.png)
+![Skeumorphism in user interface example](/assets/skeumorphism.png)
 
 **Examples**
 - An app could imitate physical buttons, like we find in radios

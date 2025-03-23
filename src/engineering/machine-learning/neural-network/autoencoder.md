@@ -26,4 +26,4 @@ In a [Variational Autoencoder](https://en.wikipedia.org/wiki/Variational_autoenc
 
 The outputs are probabilistic, unlike traditional autoencoders, which produce deterministic reconstructions of the input. This characteristic enables the generation of diverse samples and provides control over the outputs by manipulating the parameters of the latent distribution.
 
-![vae](/engineering/machine-learning/assets/vae.png)
+![vae](/assets/vae.png)

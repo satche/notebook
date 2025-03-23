@@ -15,7 +15,7 @@ A [tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) is a hierarchical 
 
 In a [binary tree](https://en.wikipedia.org/wiki/Binary_tree), each item within the tree has at most two children.
 
-![Example of a tree data structure](../assets/binary-tree.svg)
+![Example of a tree data structure](/assets/binary-tree.svg)
 
 ### Tree rotation
 
@@ -29,4 +29,4 @@ A graph can contains a [spanning tree](https://en.wikipedia.org/wiki/Spanning_tr
 
 A [Minimum Spanning Tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree) (MST) is a spanning tree which connect vertices together by edges with minimum total weight.
 
-![Example of a Minimum Spanning Tree](../assets/minimum-spanning-tree.png)
+![Example of a Minimum Spanning Tree](/assets/minimum-spanning-tree.png)

@@ -2,7 +2,7 @@
 
 The [binary search](https://wikipedia.org/wiki/binary_search) is used to find a value by splitting the interval into two at each iteration. For that, the list/array should be sorted.
 
-![Example of binary search](../assets/binary-search.png)
+![Example of binary search](/assets/binary-search.png)
 
 We can find the final result if it's a discret interval, like an index in a sorted list. However, if it's a continuous, we need to give a stopping condition (precision).
 
@@ -18,7 +18,7 @@ When nodes are inserted or deleted from the tree, it has to re-balance itself to
 |Insert|$\Theta(\log n)$|$O(n)$|
 |Delete|$\Theta(\log n)$|$O(n)$|
 
-![Binary search tree example](../assets/binary-search-tree.png)
+![Binary search tree example](/assets/binary-search-tree.png)
 
 ## Complexity
 

@@ -10,7 +10,7 @@ A [diffusion model](https://en.wikipedia.org/wiki/Diffusion_model) is mainly use
 
 The model basically add noise to data and try to recreate it from pure noise.
 
-![diffusion](/engineering/machine-learning/assets/diffusion.png)
+![diffusion](/assets/diffusion.png)
 
 ### Forward process
 

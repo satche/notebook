@@ -96,7 +96,7 @@ function generateSidebarConfig(items) {
       documentRootPath: "src",
       scanStartPath: name,
       resolvePath: `/${name}/`,
-      excludeFiles: [`${name}.md`],
+      excludePattern: [`${name}.md`],
       rootGroupLink: '/',
       collapsed: true,
       capitalizeFirst: true,

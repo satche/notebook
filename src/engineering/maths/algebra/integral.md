@@ -10,7 +10,7 @@ Here is an example of an integral from $a$ to $b$, defining the area $S$.
 
 $$\int_{a}^{b} f(x) dx$$
 
-![Integral](../assets/integral.png)
+![Integral](/assets/integral.png)
 
 ## How the area is calculated
 
@@ -20,4 +20,4 @@ To have an exact value, we split an infinite number of time, denoted by $dx$.
 
 $$\int_0^1 \sqrt{x} \ dx$$
 
-![Integral example](../assets/integral-example.png)
+![Integral example](/assets/integral-example.png)

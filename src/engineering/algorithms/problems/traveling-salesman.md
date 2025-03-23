@@ -18,4 +18,4 @@ The TSP is categorised as [NP-Complete](../complexity.md#NP): there is currently
 Some [heuristics](../algorithms.md#Terminology) exist to improve found solutions.
 
 - [2-opt](https://en.wikipedia.org/wiki/2-opt): take 2 random edges, swap them and verify if it improves the solution. It's possible to swap more edges (3-opt, 4-opt, etc)
-- [Lin-Kernighan](https://en.wikipedia.org/wiki/Lin–Kernighan_heuristic): create a split in the graph and count the number of edges that cross it. Swap 2 edges: if less vertices cross the split, the solution has improved.<br/>(Example: [profmadden's video](https://www.youtube.com/watch?v=6cPql7A6JHU))
+- [Lin-Kernighan](https://en.wikipedia.org/wiki/Lin–Kernighan_heuristic): create a split in the graph and count the number of edges that cross it. Swap 2 edges: if less vertices cross the split, the solution has improved. (Example: [profmadden's video](https://www.youtube.com/watch?v=6cPql7A6JHU))

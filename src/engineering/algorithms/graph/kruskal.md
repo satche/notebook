@@ -9,7 +9,7 @@ tags: [algorithm, algorithm/greedy, data-structure/graph]
 
 It works well for less dense graph.
 
-![Animation of Kruskal's algorithm](../assets/kruskal.gif '[Kruskal's algorithm](https://wikipedia.org/wiki/kruskal%27s_algorithm) - Wikipedia')
+![Animation of Kruskal's algorithm](/images/kruskal.gif '[Kruskal's algorithm](https://wikipedia.org/wiki/kruskal%27s_algorithm) - Wikipedia')
 
 Its behaviour is similar to [Prim's algorithm](prim.md), but it uses multiple trees before connecting them together.
 

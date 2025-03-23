@@ -9,7 +9,7 @@ tags: [algorithm, algorithm/greedy, data-structure/graph]
 
 It works well for dense graphs.
 
-![Animation of Prim's algorithm on a graph](../assets/prim.gif '[Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm) - Wikipedia')
+![Animation of Prim's algorithm on a graph](/images/prim.gif '[Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm) - Wikipedia')
 
 ## Algorithm
 

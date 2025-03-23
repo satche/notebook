@@ -154,4 +154,4 @@ You can specify the logger when you instantiate the class, so you don't depend o
 
 ## Resources
 
-- [SOLID_cheatsheet](assets/solid_cheatsheet.pdf) – by [Monterail](https://www.monterail.com/)
+- [SOLID_cheatsheet](/assets/solid_cheatsheet.pdf) – by [Monterail](https://www.monterail.com/)
