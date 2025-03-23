@@ -1,5 +1,7 @@
 ---
-tags: [machine-learning]
+tags:
+  - machine-learning
+  - generative-ai
 ---
 
 # Generative AI
