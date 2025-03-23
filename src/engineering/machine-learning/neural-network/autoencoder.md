@@ -22,7 +22,7 @@ The goal is to minimise (with a loss function) the difference between the input 
 
 ### VAE
 
-A Variational autoencoder model. Unlike basic autoencoders, the latent space is composed of a mixture of distributions instead of fixed vectors.
+In a [Variational Autoencoder](https://en.wikipedia.org/wiki/Variational_autoencoder) (VAE), the latent space is composed of a mixture of distributions instead of fixed vectors.
 
 The outputs are probabilistic, unlike traditional autoencoders, which produce deterministic reconstructions of the input. This characteristic enables the generation of diverse samples and provides control over the outputs by manipulating the parameters of the latent distribution.
 

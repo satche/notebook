@@ -10,3 +10,7 @@ A [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neu
 In an image, the pixels are treated by blocks using a *kernel*. It's mainly used to capture image's features, like edges or textures
 
 ![cnn](/engineering/machine-learning/assets/cnn.png)
+
+## Some examples
+
+- [U-Net](https://en.wikipedia.org/wiki/U-Net) : used for image segmentation and [diffusion model](/engineering/machine-learning/neural-network/diffusion.md)
