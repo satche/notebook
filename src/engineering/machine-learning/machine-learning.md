@@ -3,60 +3,6 @@ aliases: [Artificial Intelligence]
 tags: [machine-learning]
 ---
 
-<!-- TODO
-
-# **Learning Paradigms and Approaches**
-
-- Supervised Learning
-- Unsupervised Learning
-- Reinforcement Learning
-- Semi-Supervised Learning
-- Self-Supervised Learning
-
-# **Prediction and Analysis Tasks**
-
-- Classification
-	- Support Vector Machine (SVM)
-	- Bayesian classifier
-- Regression
-- Forecasting (e.g., time-series analysis)
-- Anomaly Detection
-- Clustering
-	- K-mean
-	- DBSCAN
-
-# **Model Types and Architectures**
-
-- Decision Trees
-- Random Forests
-- Support Vector Machines (SVMs)
-- Neural Networks (general concept)
-
-# **Deep Learning Techniques**
-
-- Convolutional Neural Networks (CNNs)
-- Recurrent Neural Networks (RNNs)
-- Transformers (e.g., BERT, GPT)
-- Autoencoders
-- Generative Models (e.g., VAEs)
-- Transfer Learning
-
-# **AI Applications**
-
-- Natural Language Processing (NLP)
-- Robotic Process Automation (RPA)
-- Computer Vision
-- Speech Recognition
-- Recommender Systems
-
-# **Optimization and Evaluation**
-
-- Gradient Descent
-- Hyperparameter Tuning
-- Model Evaluation Metrics (e.g., accuracy, precision, recall)
-
--->
-
 # Machine Learning
 
 [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) is the ability of a program or machine to think and learn by itself.
@@ -119,3 +65,58 @@ The definition of AI is so large that we tend to classify it into sub-categories
 - [interdb.jp/dl](https://www.interdb.jp/dl/) – The Engineer’s Guide To Deep Learning by Hironobu Suzuki
 - [paperswithcode.com](https://paperswithcode.com/) – Machine Learning papers with code and datasets
 - [github.com/robert/hello-deep-learning](https://github.com/robert/hello-deep-learning) – Basic deep learning exercices
+
+
+<!-- TODO
+
+# **Learning Paradigms and Approaches**
+
+- Supervised Learning
+- Unsupervised Learning
+- Reinforcement Learning
+- Semi-Supervised Learning
+- Self-Supervised Learning
+
+# **Prediction and Analysis Tasks**
+
+- Classification
+	- Support Vector Machine (SVM)
+	- Bayesian classifier
+- Regression
+- Forecasting (e.g., time-series analysis)
+- Anomaly Detection
+- Clustering
+	- K-mean
+	- DBSCAN
+
+# **Model Types and Architectures**
+
+- Decision Trees
+- Random Forests
+- Support Vector Machines (SVMs)
+- Neural Networks (general concept)
+
+# **Deep Learning Techniques**
+
+- Convolutional Neural Networks (CNNs)
+- Recurrent Neural Networks (RNNs)
+- Transformers (e.g., BERT, GPT)
+- Autoencoders
+- Generative Models (e.g., VAEs)
+- Transfer Learning
+
+# **AI Applications**
+
+- Natural Language Processing (NLP)
+- Robotic Process Automation (RPA)
+- Computer Vision
+- Speech Recognition
+- Recommender Systems
+
+# **Optimization and Evaluation**
+
+- Gradient Descent
+- Hyperparameter Tuning
+- Model Evaluation Metrics (e.g., accuracy, precision, recall)
+
+-->

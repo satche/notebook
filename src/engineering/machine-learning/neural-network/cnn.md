@@ -13,4 +13,5 @@ In an image, the pixels are treated by blocks using a *kernel*. It's mainly used
 
 ## Some examples
 
-- [U-Net](https://en.wikipedia.org/wiki/U-Net) : used for image segmentation and [diffusion model](/engineering/machine-learning/neural-network/diffusion.md)
+- **[U-Net](https://en.wikipedia.org/wiki/U-Net)**: used for image segmentation and [diffusion model](/engineering/machine-learning/neural-network/diffusion.md)
+- **[Inception](https://en.wikipedia.org/wiki/Inception_(deep_learning_architecture))**: used for [computer vision](/engineering/machine-learning/applications/computer-vision.md)
