@@ -11,7 +11,7 @@ tags: []
 
 - Deploy cloud resources ([VM](../../devops/virtualization.md), virtual disks, load balancers, …) from description file
 - Can support single or multiple providers
-- The *control plane* can be access via [API](../../architecture/styles/api.md)
+- The *control plane* can be access via [API](/engineering/web/api.md)
 
 **Tools:** [Terraform](../../../code/tools/terraform.md), Pulumi, AWS CloudFormation, [LocalStack](https://localstack.cloud/)
 

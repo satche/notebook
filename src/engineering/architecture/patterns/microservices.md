@@ -11,4 +11,4 @@ tags: []
 - Suite of small services
 - Each service run its own process ([do one thing well](../principles/kiss.md))
 - Independently deployable
-- Communication via lightweight protocols (e.g. [REST APIs](../styles/api.md)).
+- Communication via lightweight protocols (e.g. [REST APIs](/engineering/web/api.md)).
