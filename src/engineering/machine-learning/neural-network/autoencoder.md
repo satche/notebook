@@ -27,3 +27,9 @@ In a [Variational Autoencoder](https://en.wikipedia.org/wiki/Variational_autoenc
 The outputs are probabilistic, unlike traditional autoencoders, which produce deterministic reconstructions of the input. This characteristic enables the generation of diverse samples and provides control over the outputs by manipulating the parameters of the latent distribution.
 
 ![vae](/assets/vae.png)
+
+Like other variational methods, the optimization objective is the [Evidence Lower BOund](https://en.wikipedia.org/wiki/Evidence_lower_bound) (ELBO), which determine how generated data $x'$ is close to the original $x$ data; while keeping latent space regular.
+
+## Resources
+
+- [arXiv:1906.02691](https://arxiv.org/abs/1906.02691) – An Introduction to Variational Autoencoders

@@ -4,7 +4,11 @@ tags: [machine-learning]
 
 # Fréchet Inception Distance
 
-[Fréchet Inception Distance](https://en.wikipedia.org/wiki/Fr%C3%A9chet_inception_distance) (FID) measure the quality of an [AI-generated](/engineering/machine-learning/applications/generative-ai.md) image. It compares a set of real images from the dataset and the generated images. As 2024, it's a standard metric in this domain.
+[Fréchet Inception Distance](https://en.wikipedia.org/wiki/Fr%C3%A9chet_inception_distance) (FID) measure the quality of an [AI-generated](../applications/generative-ai.md) image. It compares a set of real images from the dataset and the generated images.
+
+**Some infos**
+- As 2024, it's a standard metric in this domain.
+- A minimum sample size of *10'000* is recommanded
 
 **[Inception Score](/engineering/machine-learning/metrics/inception-score.md)** comparison:
 - Both are based on an Inception [CNN](/engineering/machine-learning/neural-network/cnn.md) image [classification](/engineering/machine-learning/tasks/classification.md) model

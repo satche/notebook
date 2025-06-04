@@ -11,5 +11,10 @@ In [deep learning](https://en.wikipedia.org/wiki/Deep_learning), we use [artific
 
 - [Autoencoder](autoencoder.md): mainly used to discover and learn features from unlabeled data.
 - [CNN](cnn.md): used in computer vision and image generation
+- [RNN](/engineering/machine-learning/neural-network/rnn.md): used for sequential data (i.e. text, speech, time series)
 - [Transformer](transformer.md): architecture made of 2 main parts, a *encoder* and a *decoder*
 - [GAN](gan.md): 2 neural networks (generator and discriminator) compete against each other
+
+## Resources
+
+- [playground.tensorflow.org](https://playground.tensorflow.org/) – Neural network visualisation

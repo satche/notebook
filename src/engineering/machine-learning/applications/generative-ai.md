@@ -10,8 +10,10 @@ In [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intellige
 
 In image generation, we generally use [text-to-image](https://en.wikipedia.org/wiki/Text-to-image_model) models to create new images from scratch. Sometime, text can be replaced by image as input. 
 
-**Metrics**
+### Metrics
+
 - [Inception Score](/engineering/machine-learning/metrics/inception-score.md) – Less favored because of its limitations
+- [Fréchet Inception Distance](/engineering/machine-learning/metrics/fid.md) – Compare generated images vs. images from dataset
 
 ## Resources
 

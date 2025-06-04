@@ -19,6 +19,8 @@ Each layer has:
 - **Multi-head attention**: learns to assign weights to token according their relevance
 - **Feed-forward**: applies a fully connected neural network to each position in the sequence independently. It ensures that local and global information are both utilized effectively for downstream tasks.
 
+![Model of a Transformer architecture](/assets/transformers-architecture.png)
+
 ## Autoregression
 
 An [autoregressive model](autoregressive model.md) will apply [regression](/engineering/machine-learning/tasks/regression.md) (i.e. generate output according to inputs) based on its own previous generated output. 
@@ -28,3 +30,10 @@ An [autoregressive model](autoregressive model.md) will apply [regression](/engi
 ### GPT
 
 [Generative pre-trained transformer](Generative pre-trained transformer.md) (GPT) is a dominant architecture choice for a lot of [LLMs](/engineering/machine-learning/neural-network/llm.md).
+
+## Resources
+
+### Papers
+
+- [arXiv:1706.03762](https://arxiv.org/abs/1706.03762) – Attention is all your need
+- [arXiv:2305.10435](https://arxiv.org/abs/2305.10435) – Generative Pre-trained Transformer: A Comprehensive Review
