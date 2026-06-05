@@ -1,5 +1,9 @@
 ---
-tags: ["", machine-learning, machine-learning/neural-network, machine-learning/unsupervised-lear]
+tags:
+  - ""
+  - machine-learning
+  - machine-learning/neural-network
+  - machine-learning/unsupervised-learning
 ---
 
 # Autoencoder 

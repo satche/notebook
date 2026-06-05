@@ -1,5 +1,10 @@
 # Data
 
+<!--
+TO ADD:
+- Colors (https://ciechanow.ski/color-spaces/) … creative coding ?
+-->
+
 ## Resources
 
 ### Data sources
