@@ -5,13 +5,9 @@
 ## Variables
 
 ```CSS
-:root {
-  --main-color: blue;
-}
+:root { --main-color: blue; }
 
-body {
-  color: var(--main-color);
-}
+body { color: var(--main-color); }
 ```
 
 [`@property`](https://devdocs.io/css/@property) can define variables with more precisions
@@ -37,6 +33,12 @@ Examples: `hsl(0, 100%, 50%)`, `hsl(120, 100%, 25%)`, `hsl(240, 100%, 50%)`
 - Use `hsl(120, 100%, 25%, 0.6)` to apply opacity (alpha canal). Also works with % value
 - `deg` and `turn` can be used for *hue* value, according to the [color wheel](https://developer.mozilla.org/en-US/docs/Glossary/Color_wheel)
 
+**[`oklch()`](https://devdocs.io/css/color_value/oklch)**
+Examples: `oklch(0.7 0.1 84)`
+- Define *lightness*, *chroma*, *hue* (improved version of [`lch()`](https://devdocs.io/css/color_value/lch))
+- Lightness is *perceived*: it's consistent if chroma and hue change
+- Better to create themes and palette
+
 **[`currentColor`](https://devdocs.io/css/color_value#currentcolor_keyword)**
 Example: `color: red; border: 1px solid currentColor;`
 - This special keyword can get the value defined in `color`
@@ -44,12 +46,12 @@ Example: `color: red; border: 1px solid currentColor;`
 **Other specifics terms**
 - **[`color-mix()`](https://devdocs.io/css/color_value/color-mix)**: mix 2 colors together ([example](https://mdn.github.io/css-examples/tools/color-mixer/))
 - **[`hwb()`](https://devdocs.io/css/color_value/hwb)**: define *hue*, *whitness* and *blackness*. 
-- **[`oklch()`](https://devdocs.io/css/color_value/oklch)**: define *lightness*, *chroma*, *hue* (improved version of [`lch()`](https://devdocs.io/css/color_value/lch))
 - **`color()`**: change the current [color space](https://developer.mozilla.org/en-US/docs/Glossary/Color_space) (can be be detected via [`color-gamut`](https://devdocs.io/css/@media/color-gamut))
 
 **Read more**
 - [Web colors](https://en.wikipedia.org/wiki/Web_colors) – Wikipedia
 - [htmlcolorcodes.com](https://htmlcolorcodes.com/)
+- [oklch.com](https://oklch.com) – OKLCH Color Picker & Converter
 
 ### Relative colors
 
@@ -64,6 +66,7 @@ The [relative color syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS
 
 - Here, `red`, which value is `rgb(255, 0, 0)`, has been defined as `rgb(200, 0, 0)`. The second red square has a darker tone relative to the first one.
 - It's possible to use other color properties in the same fashion: `color()`, `hsl()`, etc.
+
 ### Light-dark themes
 
 You can use[`color-scheme`](https://devdocs.io/css/color-scheme) and [`light-dark()`](https://devdocs.io/css/color_value/light-dark) to easily define light-dark color themes.
@@ -96,6 +99,25 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', eve
 ```
 
 Read more: [`@matchMedia`](https://devdocs.io/dom/window/matchmedia)
+
+### Blend modes
+
+Use [`mix-blend-mode`](https://devdocs.io/css/mix-blend-mode) to create superposition images effects.
+
+**Examples**
+- `difference` value can be used to dynamically change text's color when it appears on same-color background.
+
+## Typography
+
+[`font-variant-numeric`](https://devdocs.io/css/font-variant-numeric) can be used to display changing text while keeping horizontal consistency and alignment. Typically used with none monotype fonts to keep the same width between digits. ""
+
+Read more in [this article](https://iprodan.dev/l/font-variant-tabular-nums/)
+
+## Shapes
+
+[`shape-outside`](https://devdocs.io/css/shape-outside): adjacent inline content (e.g. text) will wrap around the shape (usually none-square shape, like a round object or transparent image). A margin can be defined with [`shape-margin`](https://devdocs.io/css/shape-margin).
+
+[`corner-shape`](https://devdocs.io/css/corner-shape): specify the shape of the corners. Typically useful for incurved corners.
 
 ## Scroll
 
