@@ -18,12 +18,12 @@
   "devDependencies": {
     "@types/node": "^25.9.1",
     "markdown-it-image-figures": "^2.1.1",
+    "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "^1.6.4",
     "vitepress-sidebar": "^1.36.1"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
-    "markdown-it-mathjax3": "^5.2.0",
     "path": "^0.12.7"
   }
 }
