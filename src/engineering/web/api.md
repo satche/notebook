@@ -7,7 +7,7 @@ tags: []
 
 [Application Programming Interface](https://wikipedia.org/wiki/api) (API) is a way for two or more applications/programs to communicate with each other. 
 
-With APIs, an application can easily be accessed via multiple canals: web interface, CLI, scripts, etc. For example, in a [service-oriented](/engineering/architecture/styles/service-oriented.md) architecture, web services are a type of API which use the internet as network.
+With APIs, an application can easily be accessed via multiple canals: web interface, CLI, scripts, etc. For example, in a [service-oriented](../architecture/styles/service-oriented.md) architecture, web services are a type of API which use the internet as network.
 
 The term _API_ often refer to [Web API](https://en.wikipedia.org/wiki/Web_API), but it can be used for programming languages, operating systems, hardware, etc.
 
@@ -26,10 +26,10 @@ The term _API_ often refer to [Web API](https://en.wikipedia.org/wiki/Web_API), 
 
 #### Constraints
 
-1. **[Client Server](/engineering/architecture/styles/client-server.md)**: enforces the separation of concerns between the UI and the data.
-2. **[Stateless](/engineering/infrastructure/network/protocols.md#statless-/-stateful)**: no session is stored by the server, the client's request contains all information necessary to fulfill it.
+1. **[Client Server](../architecture/styles/client-server.md)**: enforces the separation of concerns between the UI and the data.
+2. **[Stateless](../infrastructure/network/protocols.md#statless-/-stateful)**: no session is stored by the server, the client's request contains all information necessary to fulfill it.
 3. **Cache**: response is labeled has cacheable (or not), so the client can reuse it.
-4. **[Layered](/engineering/architecture/styles/layered.md)**: client doesn't know if it's connected to the end-server or middlewares.
+4. **[Layered](../architecture/styles/layered.md)**: client doesn't know if it's connected to the end-server or middlewares.
 5. **Code on demand** (optional): extend or customize functionality of client by transferring code
 6. **Uniformity**: 4 constraints ensure a uniform interface
 	1. *Identification of resources*, in a clear and unique fashion

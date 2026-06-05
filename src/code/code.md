@@ -25,7 +25,7 @@
 - Don't contain logics or algorithm.
 - Usually used in [web](../engineering/web/web.md).
 - **Analogy**: the pizza is already baked, you just need to write the menu.
-- **Examples**: HTML, [CSS](languages/css.md),XML
+- **Examples**: HTML, [CSS](languages/css/css.md),XML
 
 > [!NOTE]
 > Compared to programming/scripting language, markup languages are *not* [Turing-complete](../engineering/infrastructure/turing-machine.md#Turing-complete).

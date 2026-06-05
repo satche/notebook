@@ -4,7 +4,7 @@
 
 If we measure and do mathematical operation on length, mass, temperature or other units, it's done with scalars.
 
-It's relevant to use the term "scalar" if we do operations on multi-dimensional [tensors](/engineering/maths/algebra/tensor/vector.md), like [vector](/engineering/maths/algebra/tensor/vector.md) or [matrix](/engineering/maths/algebra/tensor/vector.md), so multiplications can be done even if it's not the same dimension.
+It's relevant to use the term "scalar" if we do operations on multi-dimensional [tensors](vector.md), like [vector](vector.md) or [matrix](vector.md), so multiplications can be done even if it's not the same dimension.
 
 For example, a scalar $k$ (1 dimension) can multiply a vector $v$ (2 dimensions).
 $$

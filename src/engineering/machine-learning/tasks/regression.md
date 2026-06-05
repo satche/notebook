@@ -10,4 +10,4 @@ tags:
 
 It's used for predictive and [classification](classification.md) tasks. For example, predict the price of an apartment based on the surface and the number of rooms.
 
-It usually fall under [supervised learning](/engineering/machine-learning/learning-paradigms/supervised-learning.md).
+It usually fall under [supervised learning](../learning-paradigms/supervised-learning.md).

@@ -8,9 +8,9 @@ tags:
 
 # Dimensions
 
-Computers can only work with numerical data, and the same is true for machine learning models. [Features](/engineering/machine-learning/concepts/features.md) need to be represented into [tensors](/engineering/maths/algebra/tensor/tensor.md) and mapped into high-dimensional space for processing.
+Computers can only work with numerical data, and the same is true for machine learning models. [Features](features.md) need to be represented into [tensors](../../maths/algebra/tensor/tensor.md) and mapped into high-dimensional space for processing.
 
-For example, a 28x28 grayscale image will be flatten into a single [matrix](/engineering/maths/algebra/tensor/matrix.md) of $28\times28=784$ dimensions, which contains where each value represents a pixel's intensity, from pure black (0) to pure white (255).
+For example, a 28x28 grayscale image will be flatten into a single [matrix](../../maths/algebra/tensor/matrix.md) of $28\times28=784$ dimensions, which contains where each value represents a pixel's intensity, from pure black (0) to pure white (255).
 
 ```python
 [[  0 128 255 …  87  92  14]

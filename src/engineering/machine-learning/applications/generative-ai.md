@@ -12,8 +12,8 @@ In image generation, we generally use [text-to-image](https://en.wikipedia.org/w
 
 ### Metrics
 
-- [Inception Score](/engineering/machine-learning/metrics/inception-score.md) – Less favored because of its limitations
-- [Fréchet Inception Distance](/engineering/machine-learning/metrics/fid.md) – Compare generated images vs. images from dataset
+- [Inception Score](../metrics/inception-score.md) – Less favored because of its limitations
+- [Fréchet Inception Distance](../metrics/fid.md) – Compare generated images vs. images from dataset
 
 ## Resources
 

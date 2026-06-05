@@ -4,7 +4,7 @@ tags: [machine-learning]
 
 # Reinforcement Learning
 
-In [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), we teach the model to adapt its behaviour by telling it how well it's doing at a certain task. In opposition to [supervised learning](/engineering/machine-learning/learning-paradigms/supervised-learning.md), we don't include correct input our output in the learning process.
+In [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), we teach the model to adapt its behaviour by telling it how well it's doing at a certain task. In opposition to [supervised learning](supervised-learning.md), we don't include correct input our output in the learning process.
 
 ## Examples
 

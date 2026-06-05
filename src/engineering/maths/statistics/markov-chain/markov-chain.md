@@ -4,4 +4,4 @@
 
 From the example below, starting from event $E$, there's a 0.3 probability the next event is $E$ and 0.7 it's $A$.
 
-![Illustration of a Markov chain](markov-chain.png)
+![Illustration of a Markov chain](markov-chain/markov-chain.png)

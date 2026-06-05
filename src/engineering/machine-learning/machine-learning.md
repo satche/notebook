@@ -25,7 +25,7 @@ The definition of AI is so large that we tend to classify it into sub-categories
 
 ### Deep learning
 
-[Deep learning](https://en.wikipedia.org/wiki/Deep_learning) is a subset of machine learning focused on the use of [neural network](/engineering/machine-learning/neural-network/neural-network.md). 
+[Deep learning](https://en.wikipedia.org/wiki/Deep_learning) is a subset of machine learning focused on the use of [neural network](neural-network/neural-network.md). 
 
 ### Key events
 
@@ -36,7 +36,7 @@ The definition of AI is so large that we tend to classify it into sub-categories
 
 ## Related topics
 
-- The [ELIZA effect](https://en.wikipedia.org/wiki/ELIZA_effect) describe how people tend to attribute human traits to intelligent systems that have a textual interface (typically with [LLMs](/engineering/machine-learning/neural-network/llm.md)). Because of that, users empathise with AI system, from being polite to building friendship with.
+- The [ELIZA effect](https://en.wikipedia.org/wiki/ELIZA_effect) describe how people tend to attribute human traits to intelligent systems that have a textual interface (typically with [LLMs](neural-network/llm.md)). Because of that, users empathise with AI system, from being polite to building friendship with.
 - The [dead Internet theory](https://en.wikipedia.org/wiki/Dead_Internet_theory) is a conspiracy theory that state that the web (social media in particular) mainly consist of bots 
 
 ## Resources

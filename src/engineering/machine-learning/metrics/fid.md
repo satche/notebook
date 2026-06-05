@@ -10,8 +10,8 @@ tags: [machine-learning]
 - As 2024, it's a standard metric in this domain.
 - A minimum sample size of *10'000* is recommanded
 
-**[Inception Score](/engineering/machine-learning/metrics/inception-score.md)** comparison:
-- Both are based on an Inception [CNN](/engineering/machine-learning/neural-network/cnn.md) image [classification](/engineering/machine-learning/tasks/classification.md) model
+**[Inception Score](inception-score.md)** comparison:
+- Both are based on an Inception [CNN](../neural-network/cnn/cnn.md) image [classification](../tasks/classification.md) model
 - FID need a dataset to compare the distribution with generated images
 - Low FID score = outputs are more diverse
 - High Inception score = high-quality individual images.

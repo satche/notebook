@@ -8,7 +8,7 @@ tags:
 
 # Large-Language Models
 
-[Large-Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs) are especially used in [NLP](/engineering/machine-learning/applications/nlp.md)
+[Large-Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs) are especially used in [NLP](../applications/nlp.md)
 
 ## Resources
 

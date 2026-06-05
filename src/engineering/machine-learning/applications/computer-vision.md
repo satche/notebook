@@ -8,4 +8,4 @@ In [Computer Vision](https://en.wikipedia.org/wiki/Computer_vision), we try to g
 
 ## Models
 
-- [Inception](https://en.wikipedia.org/wiki/Inception_(deep_learning_architecture)) is a [CNN](/engineering/machine-learning/neural-network/cnn.md) family used for feature extraction in [metrics](/engineering/machine-learning/concepts/metrics.md) systems
+- [Inception](https://en.wikipedia.org/wiki/Inception_(deep_learning_architecture)) is a [CNN](../neural-network/cnn/cnn.md) family used for feature extraction in [metrics](../concepts/metrics.md) systems

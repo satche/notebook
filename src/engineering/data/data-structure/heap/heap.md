@@ -4,7 +4,7 @@ tags: [data-structure, data-structure/tree]
 
 # Heap
 
-[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure)) are like [tree](../tree.md) data structures that satisfies the *heap property*. It means it's easier to do operations on the lowest/highest values.
+[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure)) are like [tree](../tree/tree.md) data structures that satisfies the *heap property*. It means it's easier to do operations on the lowest/highest values.
 
 There is 2 types of heaps:
 - In a max-heap, the root node has the *maximum* value. The lowest node has the lowest values.
@@ -16,7 +16,7 @@ There is many variants on the data structure implementation of heaps. You'll fin
 
 ### Binary heap
 
-A [binary heap](https://en.wikipedia.org/wiki/Binary_heap) is structured like a [binary tree](../tree.md#Binary%20tree): each item within the tree has at most two children.
+A [binary heap](https://en.wikipedia.org/wiki/Binary_heap) is structured like a [binary tree](../tree/tree.md#Binary%20tree): each item within the tree has at most two children.
 
 ### Other heaps
 

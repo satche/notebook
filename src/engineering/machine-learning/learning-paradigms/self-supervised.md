@@ -10,6 +10,6 @@ This paradigm is interesting when labeled data is rare or expensive.
 
 ## Contrastive learning
 
-In some self-supervised models, like [CLIP](/engineering/machine-learning/neural-network/CLIP.md), a sample is compared with two other samples: one is a enhanced/close-related version of the original sample (positive), and the other is an unrelated sample (negative). The model is trained to associate positives close-by and separate the negatives.
+In some self-supervised models, like [CLIP](../neural-network/CLIP.md), a sample is compared with two other samples: one is a enhanced/close-related version of the original sample (positive), and the other is an unrelated sample (negative). The model is trained to associate positives close-by and separate the negatives.
 
 For example, an image of a cat is used, compared with the same altered-version (e.g. crop, rotation, color) vs. an unrelated one (e.g. image of a dog).

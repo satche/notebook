@@ -4,7 +4,7 @@ tags: [math]
 
 # Derivative 
 
-[Derivative](https://simple.wikipedia.org/wiki/Derivative_(mathematics)) show the amount by which a function is changing at one given point. It's particularly used to calculate the slope of a [function](function.md).
+[Derivative](https://simple.wikipedia.org/wiki/Derivative_(mathematics)) show the amount by which a function is changing at one given point. It's particularly used to calculate the slope of a [function](function/function.md).
 
 The [partial derivative](https://simple.wikipedia.org/wiki/Partial_derivative) of a function is the of one named variable, where all the other ones are held constant.
 
@@ -55,5 +55,5 @@ The [partial derivative](https://simple.wikipedia.org/wiki/Partial_derivative) o
 
 When a matrix is composed of derivatives, it called:
 
-- [Jacobian-Matrix](/engineering/maths/algebra/tensor/vector.md#Matrix), for first-order derivatives
-- [Hessian matrix](/engineering/maths/algebra/tensor/vector.md#Matrix), for second-order derivatives
+- [Jacobian-Matrix](tensor/vector.md#Matrix), for first-order derivatives
+- [Hessian matrix](tensor/vector.md#Matrix), for second-order derivatives

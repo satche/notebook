@@ -29,7 +29,7 @@ The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an alg
 | Notation | Name | Example |
 | ---- | ---- | ---- |
 | $O(1)$ | [constant](https://wikipedia.org/wiki/constant_time) | Determine if number is even or odd |
-| $O(\log n)$ | [logarithmic](https://wikipedia.org/wiki/logarithmic_time "logarithmic time") | [Binary search](search/binary-search.md) |
+| $O(\log n)$ | [logarithmic](https://wikipedia.org/wiki/logarithmic_time "logarithmic time") | [Binary search](search/binary-search/binary-search.md) |
 | $O(n)$ | [linear](https://wikipedia.org/wiki/linear_time "linear time") | Find item in an unsorted list/array |
 | $O(n\log n)$ | [linearithmic](https://wikipedia.org/wiki/linearithmic_time "linearithmic time") | (to complete) |
 | $O(n^2)$ | [quadratic](https://wikipedia.org/wiki/quadratic_time "quadratic time") | (to complete) |
@@ -38,7 +38,7 @@ The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an alg
 | $O(2^n)$ | [exponential](https://en.wikipedia.org/wiki/Exponential_time) | (to complete) |
 | $O(n!)$ | [factorial](https://wikipedia.org/wiki/factorial "factorial") | (to complete) |
 
-![A graphical plot of time complexity comparison](/assets/complexity-comparison-plot.png)
+![A graphical plot of time complexity comparison](complexity/complexity-comparison-plot.png)
 
 Keep in mind notation can have more than one type of input. Two different lists could involve a $O(n+m)$ type of complexity, or $O(n\times m)$ if they depend on each other. We typically use notation like $O(|V|+|E|)$ in [graphs](graph/graph.md), where the number of vertices and edges can influence the performances.
 
@@ -88,7 +88,7 @@ You can check the [complete list](https://en.wikipedia.org/wiki/List_of_complexi
 It takes $O(n^c)$ or less to *find* (or *verify*) a solution. Since those problem are relatively easy, we can use efficient algorithms to solve them.
 
 **Examples**
-- Sorting algorithms: [quicksort](sort/quicksort.md), bubble sort, merge sort, etc.
+- Sorting algorithms: [quicksort](sort/quicksort/quicksort.md), bubble sort, merge sort, etc.
 - Shortest path in a graph
 
 ### NP
@@ -109,7 +109,7 @@ Algorithms usually rely on approximations (e.g heuristics) to find solutions for
 
 **Examples**
 - Finding prime number (NP)
-- [Traveling Salesman](problems/traveling-salesman.md), [Knapsack](problems/knapsack.md), [Graph coloring](problems/graph-coloring.md) (NP-complete)
+- [Traveling Salesman](problems/traveling-salesman.md), [Knapsack](problems/knapsack.md), [Graph coloring](problems/graph-coloring/graph-coloring.md) (NP-complete)
 - [Halting](problems/halting.md) (NP-hard)
 
 ## Problems
