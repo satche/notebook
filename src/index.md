@@ -11,7 +11,7 @@ This is my personal notebook, where I gather notes, ideas, inspirations, and res
 
 # Who are you ?
 
-I'm Thomas, aka Satche. I initially worked as a web developer. I went back to studies to get my Bachelor degree in Media Engineering. I'm currently finishing my Master degree in Computer Science. I'm particularly interested in machine learning, creative coding, game design and development.
+I'm Thomas, aka Satche. I initially worked as a web developer. I went back to studies to get my Bachelor degree in Media Engineering. I'm currently finishing my Master degree in Computer Science. I'm particularly interested in machine learning, creative coding and game design.
 
 # Can I contribute ?
 
