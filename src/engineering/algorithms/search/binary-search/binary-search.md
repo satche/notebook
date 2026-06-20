@@ -18,7 +18,7 @@ When nodes are inserted or deleted from the tree, it has to re-balance itself to
 |Insert|$\Theta(\log n)$|$O(n)$|
 |Delete|$\Theta(\log n)$|$O(n)$|
 
-![Binary search tree example](binary-search-tree.png)
+![Binary search tree example|227](binary-search-tree.png)
 
 ## Complexity
 
