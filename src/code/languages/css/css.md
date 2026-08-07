@@ -113,6 +113,35 @@ Use [`mix-blend-mode`](https://devdocs.io/css/mix-blend-mode) to create superpos
 
 Read more in [this article](https://iprodan.dev/l/font-variant-tabular-nums/)
 
+## Animations
+
+### Transitions
+
+Sometime, element don't proprely animate when there's transition, especially when switching from [discrete](https://devdocs.io/css/css_animated_properties#discrete) values (e.g. `display: none → block`). Two useful properties can be used as workaround:
+
+- [`transition-behavior`](https://devdocs.io/css/transition-behavior): when set to `allow-discrete`, coordinates when to switch value according to other none-discrete properties
+- [`@starting-style`](https://devdocs.io/css/@starting-style): determine what the style of the element should be when animation start
+
+```css
+/* Example with a pop-up using the dialog element */
+dialog {
+  transition:
+    opacity 0.3s,
+    display 0.3s allow-discrete;
+}
+
+dialog:open {
+  opacity: 1;
+  @starting-style { opacity: 0; }
+}
+```
+
+[Live démo](https://v49.livecodes.io/?x=id/gnb92tx4ysg)
+
+
+> [!NOTE]
+> Unfortunately, as 25/08/2026, it works only for entering/opening animation with `<dialog>`
+
 ## Shapes
 
 [`shape-outside`](https://devdocs.io/css/shape-outside): adjacent inline content (e.g. text) will wrap around the shape (usually none-square shape, like a round object or transparent image). A margin can be defined with [`shape-margin`](https://devdocs.io/css/shape-margin).
