@@ -4,7 +4,7 @@ tags: [algorithm, "algorithm/problem"]
 
 # P vs. NP problem
 
-The [P vs. NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem) asks is it's possible to finding a solution to a problem as quickly it is to verify it. *P* and *NP* refers to the [complexity classes](../complexity.md#Complexity%20classes) of these problems.
+The [P vs. NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem) asks is it's possible to finding a solution to a problem as quickly it is to verify it. *P* and *NP* refers to the [complexity classes](../complexity/complexity.md#Complexity%20classes) of these problems.
 
 P vs. NP is one of the seven [Millennium Prize Problems](../../../index.md#Millennium%20Prize%20Problems).
 

@@ -19,7 +19,7 @@ It works well for dense graphs.
 
 ## Complexity
 
-Prim algorithm [complexity](../../complexity.md) can change depending of the data structure used.
+Prim algorithm [complexity](../../complexity/complexity.md) can change depending of the data structure used.
 
 | Operation | Array | List | [Tree](../../../data/data-structure/tree/tree.md) | [Heap](../../../data/data-structure/heap/heap.md) | [Fibonacci heap](../../../data/data-structure/heap/fibonacci-heap.md) |
 | ---- | ---- | ---- | ---- | ---- | ---- |

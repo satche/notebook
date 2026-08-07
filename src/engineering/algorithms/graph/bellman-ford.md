@@ -8,7 +8,7 @@ tags: [algorithm, data-structure/graph]
 
 ## Complexity
 
-[Time complexity](../complexity.md)
+[Time complexity](../complexity/complexity.md)
 - **Worst-case**: $O(|V||E|)$
 - **Best-case**: $\Omega(|E|)$
 

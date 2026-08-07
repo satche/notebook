@@ -12,4 +12,4 @@ We can define parameters like:
 
 ## Complexity
 
-Beam search's time [complexity](../complexity.md) is $O(k\times p \times n²)$
+Beam search's time [complexity](../complexity/complexity.md) is $O(k\times p \times n²)$

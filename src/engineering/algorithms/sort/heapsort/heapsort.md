@@ -14,7 +14,7 @@ The [heapsort](https://en.wikipedia.org/wiki/Heapsort) is a sorting algorithm us
 
 ## Complexity
 
-[Time complexity](../../complexity.md)
+[Time complexity](../../complexity/complexity.md)
 - **Worst-case**: $O(n\log n)$
 
 ## Resources

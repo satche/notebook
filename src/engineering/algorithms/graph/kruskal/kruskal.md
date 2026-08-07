@@ -23,7 +23,7 @@ Its behaviour is similar to [Prim's algorithm](../prim/prim.md), but it uses mul
 
 ## Complexity
 
-Kruskal algorithm has a [time complexity](../../complexity.md) of $O(|E| \log |V|)$
+Kruskal algorithm has a [time complexity](../../complexity/complexity.md) of $O(|E| \log |V|)$
 
 ## Resources
 

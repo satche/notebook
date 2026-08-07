@@ -8,6 +8,6 @@ tags: [algorithm, algorithm/greedy]
 
 ## Complexity
 
-[Time complexity](../complexity.md) for this algorithm is $O(Ef_{max})$
+[Time complexity](../complexity/complexity.md) for this algorithm is $O(Ef_{max})$
 - $E$ is the number of edges
 - $f_{max}$ is the maximum flow in the graph

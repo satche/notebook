@@ -8,4 +8,4 @@ The problem is to assign all facilities to different locations with the goal of 
 
 ## Complexity
 
-This problem is [NP-Hard](../complexity.md#NP): we don't know any algorithm to solve this quickly (i.e., in polynomial time).
+This problem is [NP-Hard](../complexity/complexity.md#NP): we don't know any algorithm to solve this quickly (i.e., in polynomial time).

@@ -10,7 +10,7 @@ Another way to illustrate it is to run the [Dijkstra](dijkstra/dijkstra.md) algo
 
 ## Complexity
 
-[Time complexity](../complexity.md)
+[Time complexity](../complexity/complexity.md)
 - **Worst-case**: $O(|V|^3)$
 - **Best-case:** $\Omega(|V|^3)$
 - **Average-case**: $\Theta(|V|^3)$

@@ -10,7 +10,7 @@ tags: [algorithm, algorithm/greedy, data-structure/graph]
 
 ## Complexity
 
-[Time complexity](../../complexity.md): $O(|E|+|V|\log |V|)$
+[Time complexity](../../complexity/complexity.md): $O(|E|+|V|\log |V|)$
 
 ## Resources
 

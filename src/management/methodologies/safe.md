@@ -1,6 +1,6 @@
 ---
 aliases: []
-tags: []
+tags: [project-management, project-management/agile]
 ---
 
 # SAFe

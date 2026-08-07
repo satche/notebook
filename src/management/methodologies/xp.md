@@ -1,6 +1,6 @@
 ---
 aliases: [Extreme Programing]
-tags: [project-management]
+tags: [project-management, project-management/agile, project-management/methodology]
 ---
 
 # XP

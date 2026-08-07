@@ -6,7 +6,7 @@ aliases: [Big O notation, NP complexity, P complexity, Time complexity]
 
 We define [time complexity](https://wikipedia.org/wiki/time_complexity) as the time a computer take to run an [algorithm](algorithms.md).
 
-The time to run operations grow with the input size, e.g. items in an array or vertices and edge in a [graph](../data/database/nosql/graph.md).
+The time to run operations grow with the input size, e.g. items in an array or vertices and edge in a [graph](../../data/database/nosql/graph.md).
 
 ## Approaches
 

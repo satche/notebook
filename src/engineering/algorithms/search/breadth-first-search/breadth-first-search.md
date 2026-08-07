@@ -11,7 +11,7 @@ tags: [algorithm, algorithm/search, data-structure/graph, data-structure/tree]
 
 ## Complexity
 
-[Time complexity](../../complexity.md)
+[Time complexity](../../complexity/complexity.md)
 - **Worst-case**: $O(|V|+|E|)$
 - **Best-case**: $\Omega(1)$
 

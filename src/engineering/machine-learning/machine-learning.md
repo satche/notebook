@@ -119,4 +119,31 @@ The definition of AI is so large that we tend to classify it into sub-categories
 - Hyperparameter Tuning
 - Model Evaluation Metrics (e.g., accuracy, precision, recall)
 
+# Political & Ecological
+
+## Water consumption
+
+**Energy repartition (estimations)**
+- 65-75% for power generation: water used in the power plant to generate the electricity
+- 20-25% for water cooling: evaporation use to cool data centers
+- 5-10% for chip manufacturing: creation of GPU to train and use the model
+
+The construction of the data center itself is not included. Should it be included in the data center sector, or fall under the construction industry?
+
+**Water cooling**
+- Water evaporation: energy efficienty, bus require more water
+- Air-cooling: use less water, but more energy (so water is consumed at power plants to generate more electricity)
+- Closed-loop: water circulate internally instead of evaporating
+
+**Consumption comparison**
+- LLM text query: ~0.3 mL (~0.25-3 Wh)
+- Music streaming (1h): ~250 mL
+- Social Media (1h): ~430 mL
+- Visioconference (1h): ~1720 mL
+- Video streaming (1h): ~2000-15000 mL (depending of the monitor, video, etc) 
+
+**Thoughts and discussion**
+- Yes, data center require large amount of water, but other similar sector too - and it doesn't really raised awarness like it does with AI
+- Water consumption for data center are relatively low compared to other industrial sectors. But the usage is probably less important compared to agriculture, transport or textile.
+
 -->

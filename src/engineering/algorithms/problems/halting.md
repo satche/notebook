@@ -4,4 +4,4 @@ The [halting problem](https://en.wikipedia.org/wiki/Halting_problem) determine i
 
 `while True: continue;`
 
-This problem is [NP-hard](../complexity.md#NP): we can't verify the solution in a polynomial time.
+This problem is [NP-hard](../complexity/complexity.md#NP): we can't verify the solution in a polynomial time.

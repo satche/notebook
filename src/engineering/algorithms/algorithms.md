@@ -2,7 +2,7 @@
 
 An [algorithm](https://en.wikipedia.org/wiki/Algorithm) can be defined as a sequence of operations tailored to solve a specific problem.
 
-We usually measure the performance of an algorithm by its [time complexity](complexity.md) during runtime.
+We usually measure the performance of an algorithm by its [time complexity](complexity/complexity.md) during runtime.
 
 ## Terminology
 

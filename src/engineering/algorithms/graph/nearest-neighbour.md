@@ -10,6 +10,6 @@ It basically works like [Prim](prim/prim.md)'s algorithm, but the next nearest v
 
 ## Complexity
 
-[Time complexity](../complexity.md)
+[Time complexity](../complexity/complexity.md)
 - **Worst case**: $O(n^2)$
 - **Best case**: $\Omega(n^2)$ 

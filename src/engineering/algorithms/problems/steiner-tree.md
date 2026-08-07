@@ -10,4 +10,4 @@ The problem can be illustrated by building the less roads possible to connect ci
 
 Sometimes, we can add the option to add vertices (i.e. *Steiner nodes*) to the graph to decrease the total length of the graph.
 
-It is considered as a [NP-hard](../complexity.md#NP) problem.
+It is considered as a [NP-hard](../complexity/complexity.md#NP) problem.

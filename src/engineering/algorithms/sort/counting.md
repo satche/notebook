@@ -23,5 +23,5 @@ tags: [algorithm/sort, algorithm]
 
 ## Complexity
 
-[Time complexity](../complexity.md)
+[Time complexity](../complexity/complexity.md)
 - **Worst-case**: $O(n+k)$ → where $k$ is the range

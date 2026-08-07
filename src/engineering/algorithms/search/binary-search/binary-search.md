@@ -12,7 +12,7 @@ A [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree) is like
 
 When nodes are inserted or deleted from the tree, it has to re-balance itself to keep this *left→larger, right→smaller* logic.
 
-| [Time complexity](../../complexity.md)  | Mean case  | Worst case  |
+| [Time complexity](../../complexity/complexity.md)  | Mean case  | Worst case  |
 |---|---|---|
 |Search|$\Theta(\log n)$|$O(n)$|
 |Insert|$\Theta(\log n)$|$O(n)$|
@@ -22,7 +22,7 @@ When nodes are inserted or deleted from the tree, it has to re-balance itself to
 
 ## Complexity
 
-[Time complexity](../../complexity.md)
+[Time complexity](../../complexity/complexity.md)
 - **Worst case**: $O(\log n)$
 - **Best case**: $\Omega(1)$
 - **Mean case**: $\Theta(\log n)$

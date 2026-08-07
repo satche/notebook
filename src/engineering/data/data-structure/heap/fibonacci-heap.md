@@ -23,7 +23,7 @@ We also keep track of
 
 ## Complexity
 
-[Time complexity](../../../algorithms/complexity.md)
+[Time complexity](../../../algorithms/complexity/complexity.md)
 - **Insert node**: $\Theta(1)$
 - **Find minimum**: $\Theta(1)$
 - **Delete minimum**: $O(\log n)$ (amortized)

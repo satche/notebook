@@ -1,11 +1,13 @@
 ---
 aliases: []
-tags: [project-management, devops]
+tags: [devops, project-management, project-management/methodology]
 ---
 
 # Agile
 
 [Agile](https://wikipedia.org/wiki/agile_software_development#the_agile_manifesto) is a project management methodology for software development based on communication and collaboration between teams, including the client.
+
+Agile can be considered as a broad philosophy that apply to other tools and methodologies: [Scrum](scrum.md), [Kanban](kanban.md), [Lean](lean-six-sigma.md), [XP](xp.md), [SAFe](safe.md), etc.
 
 ## Manifesto
 

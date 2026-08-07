@@ -11,7 +11,7 @@ It is easily transposable as a [graph](../../data/data-structure/graph/graph.md)
 
 ## Complexity
 
-The TSP is categorised as [NP-Complete](../complexity.md#NP): there is currently no algorithm to solve it in polynomial time.
+The TSP is categorised as [NP-Complete](../complexity/complexity.md#NP): there is currently no algorithm to solve it in polynomial time.
 
 ## Improvement
 
