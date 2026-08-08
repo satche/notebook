@@ -9,4 +9,4 @@ tags: []
 
 However, the term *serverless* is a [misnomer](https://wikipedia.org/wiki/misnomer): developers still access to servers to run their code, but they just don’t have to manage them, like system configuration or maintenance.
 
-It is well-suited for short-running, [stateless](../../network/protocols.md#stateless-/-stateful) and event-driven applications *e.g. microservices, bots, IoT, service integration, etc.*
+It is well-suited for short-running, [stateless](../../network/protocols.md) and event-driven applications *e.g. microservices, bots, IoT, service integration, etc.*

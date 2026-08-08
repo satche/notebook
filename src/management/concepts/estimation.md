@@ -32,7 +32,7 @@ The [burndown chart](https://wikipedia.org/wiki/burndown_chart) is a graphical r
 [Planning poker](https://wikipedia.org/wiki/planning_poker) is a gamified estimation technique.
 
 **Preparation**
-- Select a Moderator (e.g. the [Product Owner](scrum.md#Product%20Owner)) who usually don't play
+- Select a Moderator (e.g. the [Product Owner](../methodologies/scrum.md#Product%20Owner)) who usually don't play
 - Define cards with numbers on it
 	- Values represent time (hours, days) or more likely Story points.
 	- You can even define a card with an unsure option, like a "?" sign.

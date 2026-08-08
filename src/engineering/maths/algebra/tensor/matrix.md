@@ -1,3 +1,7 @@
+---
+title: Matrix
+---
+
 # Matrix
 
 Vectors can be represented with [matrix](https://simple.wikipedia.org/wiki/Matrix_(mathematics)).

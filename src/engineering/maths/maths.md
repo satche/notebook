@@ -1,4 +1,5 @@
 ---
+title: Mathematics
 tags: [math]
 ---
 
@@ -19,7 +20,6 @@ STUFF TO SORT
 - https://www.quora.com/How-does-the-formula-n-n-1-2n-1-6-come?share=1
 - https://en.wikipedia.org/wiki/Knuth%27s_up-arrow_notation
 - https://simple.wikipedia.org/wiki/Conjecture
-- https://simple.wikipedia.org/wiki/Millennium_Prize_Problems
 
 
 CONCEPTS

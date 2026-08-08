@@ -5,7 +5,7 @@ aliases: [Big O notation, NP complexity, P complexity, Time complexity]
 
 # Time complexity
 
-We define [time complexity](https://wikipedia.org/wiki/time_complexity) as the time a computer take to run an [algorithm](algorithms.md).
+We define [time complexity](https://wikipedia.org/wiki/time_complexity) as the time a computer take to run an [algorithm](../algorithms.md).
 
 The time to run operations grow with the input size, e.g. items in an array or vertices and edge in a [graph](../../data/database/nosql/graph.md).
 
@@ -17,7 +17,7 @@ Depending on the size of the problem, we have to balance speed over precision. I
 | ---- | ---- | ---- |
 | Tiny | Exhaustive | $n\approx10$ |
 | Small | Implicit | $10\le n \le 10^2$ |
-| Standard | [Metaheuristic](algorithms.md#Terminology) | $10^2 \le n \le 10^4$ |
+| Standard | [Metaheuristic](../algorithms.md#Terminology) | $10^2 \le n \le 10^4$ |
 | Big | Decomposition | $10^4 \le n \le 10^7$ |
 | Huge | Big data | $n \gt 10^7$ |
 
@@ -30,7 +30,7 @@ The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an alg
 | Notation     | Name                                                                             | Example                                                |
 | ------------ | -------------------------------------------------------------------------------- | ------------------------------------------------------ |
 | $O(1)$       | [constant](https://wikipedia.org/wiki/constant_time)                             | Determine if number is even or odd                     |
-| $O(\log n)$  | [logarithmic](https://wikipedia.org/wiki/logarithmic_time "logarithmic time")    | [Binary search](search/binary-search/binary-search.md) |
+| $O(\log n)$  | [logarithmic](https://wikipedia.org/wiki/logarithmic_time "logarithmic time")    | [Binary search](../search/binary-search/binary-search.md) |
 | $O(n)$       | [linear](https://wikipedia.org/wiki/linear_time "linear time")                   | Find item in an unsorted list/array                    |
 | $O(n\log n)$ | [linearithmic](https://wikipedia.org/wiki/linearithmic_time "linearithmic time") | (to complete)                                          |
 | $O(n^2)$     | [quadratic](https://wikipedia.org/wiki/quadratic_time "quadratic time")          | (to complete)                                          |
@@ -42,7 +42,7 @@ The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an alg
 
 ![A graphical plot of time complexity comparison](complexity-comparison-plot.png)
 
-Keep in mind notation can have more than one type of input. Two different lists could involve a $O(n+m)$ type of complexity, or $O(n\times m)$ if they depend on each other. We typically use notation like $O(|V|+|E|)$ in [graphs](graph/graph.md), where the number of vertices and edges can influence the performances.
+Keep in mind notation can have more than one type of input. Two different lists could involve a $O(n+m)$ type of complexity, or $O(n\times m)$ if they depend on each other. We typically use notation like $O(|V|+|E|)$ in [graphs](../graph/graph.md), where the number of vertices and edges can influence the performances.
 
 **Example**
 Let say there is 100 persons, you give a coin to one of them, and you have to find it. They can only answer by yes or no.
@@ -90,7 +90,7 @@ You can check the [complete list](https://en.wikipedia.org/wiki/List_of_complexi
 It takes $O(n^c)$ or less to *find* (or *verify*) a solution. Since those problem are relatively easy, we can use efficient algorithms to solve them.
 
 **Examples**
-- Sorting algorithms: [quicksort](sort/quicksort/quicksort.md), bubble sort, merge sort, etc.
+- Sorting algorithms: [quicksort](../sort/quicksort/quicksort.md), bubble sort, merge sort, etc.
 - Shortest path in a graph
 
 ### NP
@@ -111,12 +111,12 @@ Algorithms usually rely on approximations (e.g heuristics) to find solutions for
 
 **Examples**
 - Finding prime number (NP)
-- [Traveling Salesman](problems/traveling-salesman.md), [Knapsack](problems/knapsack.md), [Graph coloring](problems/graph-coloring/graph-coloring.md) (NP-complete)
-- [Halting](problems/halting.md) (NP-hard)
+- [Traveling Salesman](../problems/traveling-salesman.md), [Knapsack](../problems/knapsack.md), [Graph coloring](../problems/graph-coloring/graph-coloring.md) (NP-complete)
+- [Halting](../problems/halting.md) (NP-hard)
 
 ## Problems
 
-- [P vs. NP](problems/p-vs-np.md)
+- [P vs. NP](../problems/p-vs-np.md)
 
 ## Resources
 

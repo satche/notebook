@@ -1,4 +1,5 @@
 ---
+title: "Derivative "
 tags: [math]
 ---
 
@@ -55,5 +56,5 @@ The [partial derivative](https://simple.wikipedia.org/wiki/Partial_derivative) o
 
 When a matrix is composed of derivatives, it called:
 
-- [Jacobian-Matrix](tensor/vector.md#Matrix), for first-order derivatives
-- [Hessian matrix](tensor/vector.md#Matrix), for second-order derivatives
+- [Matrix](tensor/matrix.md), for first-order derivatives
+- [Hessian matrix](tensor/matrix.md), for second-order derivatives
