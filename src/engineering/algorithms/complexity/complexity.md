@@ -1,4 +1,5 @@
 ---
+title: Time complexity
 aliases: [Big O notation, NP complexity, P complexity, Time complexity]
 ---
 
@@ -26,19 +27,20 @@ Depending on the size of the problem, we have to balance speed over precision. I
 
 The [Big O notation](https://wikipedia.org/wiki/big_o_notation) shows how an algorithm's performance get bigger as its input $n$ increases. In short: how does the time it takes to do the operation growth as we add more elements.
 
-| Notation | Name | Example |
-| ---- | ---- | ---- |
-| $O(1)$ | [constant](https://wikipedia.org/wiki/constant_time) | Determine if number is even or odd |
-| $O(\log n)$ | [logarithmic](https://wikipedia.org/wiki/logarithmic_time "logarithmic time") | [Binary search](search/binary-search/binary-search.md) |
-| $O(n)$ | [linear](https://wikipedia.org/wiki/linear_time "linear time") | Find item in an unsorted list/array |
-| $O(n\log n)$ | [linearithmic](https://wikipedia.org/wiki/linearithmic_time "linearithmic time") | (to complete) |
-| $O(n^2)$ | [quadratic](https://wikipedia.org/wiki/quadratic_time "quadratic time") | (to complete) |
-| $O(n^3)$ | cubic | (to complete) |
-| $O(n^c)$ | [polynomial](https://wikipedia.org/wiki/polynomial_time "polynomial time") | (to complete) |
-| $O(2^n)$ | [exponential](https://en.wikipedia.org/wiki/Exponential_time) | (to complete) |
-| $O(n!)$ | [factorial](https://wikipedia.org/wiki/factorial "factorial") | (to complete) |
+| Notation     | Name                                                                             | Example                                                |
+| ------------ | -------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| $O(1)$       | [constant](https://wikipedia.org/wiki/constant_time)                             | Determine if number is even or odd                     |
+| $O(\log n)$  | [logarithmic](https://wikipedia.org/wiki/logarithmic_time "logarithmic time")    | [Binary search](search/binary-search/binary-search.md) |
+| $O(n)$       | [linear](https://wikipedia.org/wiki/linear_time "linear time")                   | Find item in an unsorted list/array                    |
+| $O(n\log n)$ | [linearithmic](https://wikipedia.org/wiki/linearithmic_time "linearithmic time") | (to complete)                                          |
+| $O(n^2)$     | [quadratic](https://wikipedia.org/wiki/quadratic_time "quadratic time")          | (to complete)                                          |
+| $O(n^3)$     | cubic                                                                            | (to complete)                                          |
+| $O(n^c)$     | [polynomial](https://wikipedia.org/wiki/polynomial_time "polynomial time")       | (to complete)                                          |
+| $O(2^n)$     | [exponential](https://en.wikipedia.org/wiki/Exponential_time)                    | (to complete)                                          |
+| $O(n!)$      | [factorial](https://wikipedia.org/wiki/factorial "factorial")                    | (to complete)                                          |
+|              |                                                                                  |                                                        |
 
-![A graphical plot of time complexity comparison](complexity/complexity-comparison-plot.png)
+![A graphical plot of time complexity comparison](complexity-comparison-plot.png)
 
 Keep in mind notation can have more than one type of input. Two different lists could involve a $O(n+m)$ type of complexity, or $O(n\times m)$ if they depend on each other. We typically use notation like $O(|V|+|E|)$ in [graphs](graph/graph.md), where the number of vertices and edges can influence the performances.
 
